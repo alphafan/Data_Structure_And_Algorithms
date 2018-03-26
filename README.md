@@ -9,3 +9,4 @@
 
 ### Quick Sort Implementation
 - [Merge Sort](sort/docs/Merge_Sort.md)
+- [Partition Sort](sort/docs/Partition_Sort.md)
