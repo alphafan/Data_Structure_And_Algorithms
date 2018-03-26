@@ -3,6 +3,13 @@
 
 class Node(object):
 
+    """ List Node
+
+    Args:
+        value: data storing at this node
+        next: pointer to the linked node
+    """
+
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -13,6 +20,12 @@ class Node(object):
 
 class List(object):
 
+    """ List of nodes
+
+    Args:
+        head: (Node) Head node of a list
+    """
+
     def __init__(self, head=None):
         self.head = head
 
@@ -22,6 +35,10 @@ class List(object):
             repr_str += str(node) + ' -> '
             node = node.next
         return repr_str + 'None'
+
+    # ---------------------------------------------
+    # Insert an element
+    # ---------------------------------------------
 
     def insert(self, value):
         """ Insert a node to the end of list """
@@ -60,25 +77,9 @@ class List(object):
         node.next.next = next
         return self
 
-    def deleteAt(self, k):
-        """ Delete a node at index k """
-        if self.head is None:
-            raise Exception('Empty list')
-        if k < 0:
-            raise Exception('Delete position can not be negative')
-        if k == 0:
-            self.head = self.head.next
-            return self
-        i, node = 0, self.head
-        while i < k-1:
-            node = node.next
-            i += 1
-            if node.next is None:
-                raise Exception('Position k: ({}) out of range'.format(k))
-        if node.next is None:
-            raise Exception('Position k: ({}) out of range'.format(k))
-        node.next = node.next.next
-        return self
+    # ---------------------------------------------
+    # Delete element(s)
+    # ---------------------------------------------
 
     def delete(self, value):
         """ Delete the first node with value """
@@ -114,6 +115,30 @@ class List(object):
             if node is None:
                 return self
         return self
+
+    def deleteAt(self, k):
+        """ Delete a node at index k """
+        if self.head is None:
+            raise Exception('Empty list')
+        if k < 0:
+            raise Exception('Delete position can not be negative')
+        if k == 0:
+            self.head = self.head.next
+            return self
+        i, node = 0, self.head
+        while i < k-1:
+            node = node.next
+            i += 1
+            if node.next is None:
+                raise Exception('Position k: ({}) out of range'.format(k))
+        if node.next is None:
+            raise Exception('Position k: ({}) out of range'.format(k))
+        node.next = node.next.next
+        return self
+
+    # ---------------------------------------------
+    # Reverse list element(s)
+    # ---------------------------------------------
 
     def reverse(self):
         """ Reverse the list """
