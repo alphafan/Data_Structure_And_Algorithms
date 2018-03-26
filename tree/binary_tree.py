@@ -121,6 +121,22 @@ class BTree(object):
             currLevel, nextLevel = nextLevel, currLevel
         print()
 
+    def height(self):
+        return self._heightRec(self.root)
+
+    def _heightRec(self, root: BTNode):
+        if root is None:
+            return 0
+        if root.left is None and root.right is None:
+            return 1
+        elif root.left is None and root.right is not None:
+            return 1 + self._heightRec(root.right)
+        elif root.left is not None and root.right is None:
+            return 1 + self._heightRec(root.left)
+        else:
+            return 1 + max(self._heightRec(root.left),
+                           self._heightRec(root.right))
+
 
 def buildTree():
     """  Build a tree for testing
@@ -147,3 +163,4 @@ tree.preOrder()
 tree.inOrder()
 tree.postOrder()
 tree.levelOrder()
+print(tree.height())

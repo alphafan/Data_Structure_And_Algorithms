@@ -26,3 +26,4 @@
         - [Non-Recursive](tree/docs/Non_Recursive_Visit.md)
     - Breadth First Search (Level Order Visit)
         - [Level Order](tree/docs/Level_Order.md)
+- [Get Height of a Tree](tree/docs/Get_Height.md)
