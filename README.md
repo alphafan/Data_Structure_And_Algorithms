@@ -14,7 +14,7 @@
 ### Binary Search [Full Code](search/binary_search.py)
 - [Binary Search](search/docs/Binary_Search.md)
 
-### [Stack](stack_queue/stack.py) and [Queue](stack_queue/queue.py) 
+### Stack [Full Code](stack_queue/stack.py) and Queue [Full Code](stack_queue/queue.py) 
 - [Implement Stack with Python List](stack_queue/docs/Stack.md)
 - [Implement Queue with Two Stacks](stack_queue/docs/Queue.md)
 
