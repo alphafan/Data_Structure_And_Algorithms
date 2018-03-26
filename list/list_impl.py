@@ -236,17 +236,3 @@ class List(object):
             slow = slow.next
             fast = fast.next
         return slow
-
-
-a = Node('a')
-b = Node('b')
-c = Node('c')
-d = Node('d')
-e = Node('e')
-a.next = b
-b.next = c
-c.next = d
-d.next = e
-e.next = c
-lst = List(a)
-print(lst.getCircularNode())
