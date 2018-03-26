@@ -51,7 +51,7 @@ class BTree(object):
             print(root.value, end=' ')
 
     def preOrder(self):
-        print('Pre-Order:   ')
+        print('Pre-Order   :', end=' ')
         if self.root is None:
             print()
             return
@@ -63,6 +63,43 @@ class BTree(object):
                 stack.append(node.right)
             if node.left:
                 stack.append(node.left)
+        print()
+
+    def inOrder(self):
+        print('In-Order    :', end=' ')
+        if self.root is None:
+            print()
+            return
+        node = self.root
+        stack = []
+        while node or stack:
+            while node:
+                stack.append(node)
+                node = node.left
+            if stack:
+                node = stack.pop()
+                print(node, end=' ')
+                node = node.right
+        print()
+
+    def postOrder(self):
+        print('Post-Order  :', end=' ')
+        stack = [self.root]
+        prev = None
+        while stack:
+            curr = stack[-1]
+            # 3 conditions to print out
+            if (curr.left is None and curr.right is None) or \
+               (prev is not None and curr.left == prev and curr.right is None) or \
+               (prev is not None and curr.right == prev):
+                node = stack.pop()
+                print(node, end=' ')
+                prev = node
+            else:
+                if curr.right:
+                    stack.append(curr.right)
+                if curr.left:
+                    stack.append(curr.left)
         print()
 
 
@@ -88,3 +125,5 @@ tree.preOrderRec()
 tree.inOrderRec()
 tree.postOrderRec()
 tree.preOrder()
+tree.inOrder()
+tree.postOrder()
