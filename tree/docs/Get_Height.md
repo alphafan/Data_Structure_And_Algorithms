@@ -20,19 +20,19 @@ class BTree(object):
     def __init__(self, root):
         self.root = root
 
-    def height(self):
-        return self._heightRec(self.root)
+    def maxDepth(self):
+        return self._maxDepthRec(self.root)
 
-    def _heightRec(self, root: BTNode):
+    def _maxDepthRec(self, root: BTNode):
         if root is None:
             return 0
         if root.left is None and root.right is None:
             return 1
         elif root.left is None and root.right is not None:
-            return 1 + self._heightRec(root.right)
+            return 1 + self._maxDepthRec(root.right)
         elif root.left is not None and root.right is None:
-            return 1 + self._heightRec(root.left)
+            return 1 + self._maxDepthRec(root.left)
         else:
-            return 1 + max(self._heightRec(root.left),
-                           self._heightRec(root.right))
+            return 1 + max(self._maxDepthRec(root.left),
+                           self._maxDepthRec(root.right))
 ```

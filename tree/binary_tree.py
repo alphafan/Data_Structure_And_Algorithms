@@ -121,21 +121,27 @@ class BTree(object):
             currLevel, nextLevel = nextLevel, currLevel
         print()
 
-    def height(self):
-        return self._heightRec(self.root)
+    def maxDepth(self):
+        return self._maxDepth(self.root)
 
-    def _heightRec(self, root: BTNode):
+    def _maxDepth(self, root: BTNode):
         if root is None:
             return 0
         if root.left is None and root.right is None:
             return 1
         elif root.left is None and root.right is not None:
-            return 1 + self._heightRec(root.right)
+            return 1 + self._maxDepth(root.right)
         elif root.left is not None and root.right is None:
-            return 1 + self._heightRec(root.left)
+            return 1 + self._maxDepth(root.left)
         else:
-            return 1 + max(self._heightRec(root.left),
-                           self._heightRec(root.right))
+            return 1 + max(self._maxDepth(root.left),
+                           self._maxDepth(root.right))
+
+    def isBalance(self):
+        pass
+
+    def pathToNode(self, node: BTNode):
+        pass
 
 
 def buildTree():
@@ -163,4 +169,4 @@ tree.preOrder()
 tree.inOrder()
 tree.postOrder()
 tree.levelOrder()
-print(tree.height())
+print(tree.maxDepth())
