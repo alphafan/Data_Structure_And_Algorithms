@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/list/docs/Insert_Node.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/list/docs/Delete_Node.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/list/list_impl.py" afterPath="$PROJECT_DIR$/list/list_impl.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/list/docs/Insert_Node.md" afterPath="$PROJECT_DIR$/list/docs/Insert_Node.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -31,19 +32,32 @@
       <file leaf-file-name="list_impl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/list_impl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="77" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="100" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Insert_Node.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Delete_Node.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/docs/Delete_Node.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Insert_Node.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/docs/Insert_Node.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-909">
-                <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -80,9 +94,9 @@
       <list>
         <option value="$PROJECT_DIR$/List/test.py" />
         <option value="$PROJECT_DIR$/List/list.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/list/list_impl.py" />
         <option value="$PROJECT_DIR$/list/docs/Insert_Node.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -153,6 +167,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/list/docs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -304,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522066007365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="doc">
+      <created>1522066297336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522066297336</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -369,7 +395,8 @@
     <MESSAGE value="rename" />
     <MESSAGE value="comments" />
     <MESSAGE value="get value" />
-    <option name="LAST_COMMIT_MESSAGE" value="get value" />
+    <MESSAGE value="doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,17 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/list_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -407,10 +423,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/docs/Delete_Node.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list/list_impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="77" selection-end-column="19" />
+        <state relative-caret-position="218">
+          <caret line="100" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -418,8 +445,19 @@
     <entry file="file://$PROJECT_DIR$/list/docs/Insert_Node.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-909">
-            <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
