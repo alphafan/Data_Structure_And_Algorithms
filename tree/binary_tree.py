@@ -18,7 +18,7 @@ class BTree(object):
         self.root = root
 
     def preOrderRec(self):
-        print('Pre-Order Rec: ', end=' ')
+        print('Pre-Order Rec  :', end=' ')
         self._preOrderRec(self.root)
         print()     # Flush
 
@@ -29,7 +29,7 @@ class BTree(object):
             self._preOrderRec(root.right)
 
     def inOrderRec(self):
-        print('In-Order Rec:  ', end=' ')
+        print('In-Order Rec   :', end=' ')
         self._inOrderRec(self.root)
         print()     # Flush
 
@@ -40,7 +40,7 @@ class BTree(object):
             self._inOrderRec(root.right)
 
     def postOrderRec(self):
-        print('Post-Order Rec:', end=' ')
+        print('Post-Order Rec :', end=' ')
         self._postOrderRec(self.root)
         print()  # Flush
 
@@ -102,6 +102,25 @@ class BTree(object):
                     stack.append(curr.left)
         print()
 
+    def levelOrder(self):
+        """ Visit Tree Level by Level """
+        print('Level Order :', end=' ')
+        if self.root is None:
+            print()
+            return
+        currLevel = [self.root]
+        nextLevel = []
+        while currLevel or nextLevel:
+            while len(currLevel) != 0:
+                node = currLevel.pop(0)
+                print(node, end=' ')
+                if node.left:
+                    nextLevel.append(node.left)
+                if node.right:
+                    nextLevel.append(node.right)
+            currLevel, nextLevel = nextLevel, currLevel
+        print()
+
 
 def buildTree():
     """  Build a tree for testing
@@ -127,3 +146,4 @@ tree.postOrderRec()
 tree.preOrder()
 tree.inOrder()
 tree.postOrder()
+tree.levelOrder()

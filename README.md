@@ -20,5 +20,9 @@
 
 
 ### [Binary Tree](tree/binary_tree.py)
-- Tree Traversals [Recursive](tree/docs/Recursive_Visit.md) [Non-Recursive](tree/docs/Non_Recursive_Visit.md)
- 
+- Tree Traversals: 
+    - Depth First Search (Pre-, In-, Post- Order ) 
+[Recursive](tree/docs/Recursive_Visit.md) 
+[Non-Recursive](tree/docs/Non_Recursive_Visit.md)
+    - Breadth First Search
+[Level Order](tree/docs/Level_Order.md)
