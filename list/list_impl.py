@@ -156,6 +156,19 @@ class List(object):
                 raise Exception('k: ({}) out of range'.format(k))
         return node.value
 
+    def getMidItem(self):
+        if self.head is None or self.head.next is None:
+            return None
+        slow, fast = self.head, self.head
+        while slow and fast:
+            if fast.next is None:
+                break
+            fast = fast.next.next
+            if fast is None:
+                break
+            slow = slow.next
+        return slow
+
     def getKthLast(self, k):
         """ Return the last Kth value. """
         if k < 0:
@@ -175,19 +188,6 @@ class List(object):
             slow = slow.next
         return slow
 
-    def getMidItem(self):
-        if self.head is None or self.head.next is None:
-            return None
-        slow, fast = self.head, self.head
-        while slow and fast:
-            if fast.next is None:
-                break
-            fast = fast.next.next
-            if fast is None:
-                break
-            slow = slow.next
-        return slow
-
     # ---------------------------------------------
     # Reverse list element(s)
     # ---------------------------------------------
@@ -204,6 +204,9 @@ class List(object):
             cur = nxt
         self.head = pre
         return self
+
+    def isCircular(self):
+        pass
 
 
 lst = List()
