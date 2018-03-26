@@ -205,13 +205,27 @@ class List(object):
         self.head = pre
         return self
 
+    # ---------------------------------------------
+    # Check if a list is circular
+    # ---------------------------------------------
+
     def isCircular(self):
-        pass
+        fast, slow = self.head, self.head
+        while fast and slow:
+            slow = slow.next
+            fast = fast.next
+            if fast is None:
+                return False
+            fast = fast.next
+            if fast == slow:
+                return True
+        return False
 
 
-lst = List()
-lst.insert(0)
-lst.insert(1)
-lst.insert(2)
-lst.insert(3)
-print(lst.getMidItem())
+a = Node('a')
+b = Node('b')
+c = Node('c')
+a.next = b
+b.next = c
+lst = List(a)
+print(lst.isCircular())
