@@ -15,6 +15,22 @@ class List(object):
             if fast == slow:
                 return True
         return False
+    
+    def getCircularNode(self):
+        fast, slow = self.head, self.head
+        while fast and slow:
+            slow = slow.next
+            fast = fast.next
+            if fast is None or fast.next is None:
+                raise Exception('Not a circular list')
+            fast = fast.next
+            if fast == slow:
+                break
+        slow = self.head
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next
+        return slow
 
     def __init__(self, head=None):
         self.head = head

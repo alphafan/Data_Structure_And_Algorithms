@@ -221,11 +221,32 @@ class List(object):
                 return True
         return False
 
+    def getCircularNode(self):
+        fast, slow = self.head, self.head
+        while fast and slow:
+            slow = slow.next
+            fast = fast.next
+            if fast is None or fast.next is None:
+                raise Exception('Not a circular list')
+            fast = fast.next
+            if fast == slow:
+                break
+        slow = self.head
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next
+        return slow
+
 
 a = Node('a')
 b = Node('b')
 c = Node('c')
+d = Node('d')
+e = Node('e')
 a.next = b
 b.next = c
+c.next = d
+d.next = e
+e.next = c
 lst = List(a)
-print(lst.isCircular())
+print(lst.getCircularNode())
