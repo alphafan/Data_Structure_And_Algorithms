@@ -19,5 +19,6 @@
 - [Implement Queue with Two Stacks](stack_queue/docs/Queue.md)
 
 
-### Binary Trees
-- Tree Traversals [Recursive]() [Non-Recursive]() 
+### Binary Trees[trees/binary_tree.py]
+- Tree Traversals [Recursive](tree/docs/Recursive_Visit.md) [Non-Recursive](tree/docs/Non_Recursive_Visit.md)
+ 
