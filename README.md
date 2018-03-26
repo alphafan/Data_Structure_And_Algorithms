@@ -4,3 +4,4 @@
 - [Insert Node](list/docs/Insert_Node.md)
 - [Delete Node](list/docs/Delete_Node.md)
 - [Get node value](list/docs/Get_Value.md)
+- [Reverse List](list/docs/Reverse_List.md)
