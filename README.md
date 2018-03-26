@@ -6,3 +6,6 @@
 - [Get node value](list/docs/Get_Value.md)
 - [Reverse List](list/docs/Reverse_List.md)
 - [Circular List](list/docs/Circular_List.md)
+
+### Quick Sort Implementation
+- [Merge Sort](sort/docs/Merge_Sort.md)
