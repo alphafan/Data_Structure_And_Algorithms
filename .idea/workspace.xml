@@ -4,11 +4,6 @@
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/list/list_impl.py" afterPath="$PROJECT_DIR$/list/list_impl.py" />
-      <change beforePath="$PROJECT_DIR$/stack_queue/docs/Queue.md" afterPath="$PROJECT_DIR$/stack_queue/docs/Queue.md" />
-      <change beforePath="$PROJECT_DIR$/stack_queue/queue.py" afterPath="$PROJECT_DIR$/stack_queue/queue.py" />
-      <change beforePath="$PROJECT_DIR$/tree/binary_tree.py" afterPath="$PROJECT_DIR$/tree/binary_tree.py" />
-      <change beforePath="$PROJECT_DIR$/tree/docs/Get_Height.md" afterPath="$PROJECT_DIR$/tree/docs/Get_Height.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +19,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="483">
-                <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+                <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -220,11 +215,6 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -586,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522080588757</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="is balance">
+      <created>1522114576443</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1522114576443</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -667,7 +664,8 @@
     <MESSAGE value="update doc" />
     <MESSAGE value="height of a tree" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="is balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="is balance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -908,7 +906,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="483">
-            <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+            <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />

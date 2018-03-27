@@ -27,4 +27,4 @@
     - Breadth First Search (Level Order Visit)
         - [Level Order](tree/docs/Level_Order.md)
 - [Get Max/Min Depths of a Tree](tree/docs/Get_Height.md)
-- [Check if Tree is balanced](tree/docs/Get_Height.md)
+- [Check if Tree is Balance](tree/docs/Get_Height.md)
