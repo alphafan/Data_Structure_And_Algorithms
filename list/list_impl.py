@@ -7,7 +7,7 @@ class Node(object):
 
     Args:
         value: data storing at this node
-        next: pointer to the linked node
+        next: pointer to the next node
     """
 
     def __init__(self, value):
@@ -210,6 +210,7 @@ class List(object):
     # ---------------------------------------------
 
     def isCircular(self):
+        """ Check if a list is circular """
         fast, slow = self.head, self.head
         while fast and slow:
             slow = slow.next
@@ -222,6 +223,7 @@ class List(object):
         return False
 
     def getCircularNode(self):
+        """ Get the entry node of circle """
         fast, slow = self.head, self.head
         while fast and slow:
             slow = slow.next

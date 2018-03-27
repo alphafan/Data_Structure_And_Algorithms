@@ -14,7 +14,7 @@ class Queue(object):
         self.stack1.push(item)
 
     def pop(self):
-        if self.stack2.sizae() == 0:
+        if self.stack2.size() == 0:
             if self.stack1.size() == 0:
                 raise Exception('Empty Queue')
             while self.stack1.size() != 0:

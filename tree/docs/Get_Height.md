@@ -35,4 +35,21 @@ class BTree(object):
         else:
             return 1 + max(self._maxDepthRec(root.left),
                            self._maxDepthRec(root.right))
+           
+    def minDepth(self):
+        return self._minDepthRec(self.root)
+
+    def _minDepthRec(self, root):
+        if root is None:
+            return 0
+        if root.left is None or root.right is None:
+            return 1
+        else:
+            return 1 + min(self._minDepthRec(root.left),
+                           self._minDepthRec(root.right))
+
+    def isBalance(self):
+        if self.maxDepth() - self.minDepth() <= 1:
+            return True
+        return False
 ```
