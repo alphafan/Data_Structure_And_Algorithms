@@ -31,3 +31,6 @@
 
 ### Graph [Full Code](graph/graph_visit.py)
 - [Graph Visit(Depth First/Breadth First)](graph/docs/Graph_Visit.md)
+
+### Backtracking Algorithm
+- [Knight’s tour problem](backtracking/knights_tour.py)
