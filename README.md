@@ -18,7 +18,6 @@
 - [Implement Stack with Python List](stack_queue/docs/Stack.md)
 - [Implement Queue with Two Stacks](stack_queue/docs/Queue.md)
 
-
 ### Binary Tree [Full Code](tree/binary_tree.py)
 - Tree Traversals: 
     - Depth First Search (Pre-, In-, Post- Order Visit) 
@@ -28,6 +27,7 @@
         - [Level Order](tree/docs/Level_Order.md)
 - [Get Max/Min Depths of a Tree](tree/docs/Get_Height.md)
 - [Check if Tree is Balance](tree/docs/Get_Height.md)
+- [Get Path to a Node](tree/docs/Path_To_Node.md)
 
 ### Graph [Full Code](graph/graph_visit.py)
 - [Graph Visit(Depth First/Breadth First)](graph/docs/Graph_Visit.md)

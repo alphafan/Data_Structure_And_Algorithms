@@ -154,28 +154,40 @@ class BTree(object):
             return True
         return False
 
-    def pathToNode(self, node: BTNode):
-        pass
+    def pathToNode(self, target: BTNode):
+        if self.root is None:
+            return []
+        return self._pathToNodeRec(self.root, target, [self.root])
+
+    def _pathToNodeRec(self, root, target, path: list):
+        if root == target:
+            print(path)
+            return path
+        if root.left:
+            resLeft = self._pathToNodeRec(root.left, target, path + [root.left])
+            if resLeft:
+                return resLeft
+        if root.right:
+            resRight = self._pathToNodeRec(root.right, target, path + [root.right])
+            if resRight:
+                return resRight
 
 
-def buildTree():
-    """  Build a tree for testing
+"""  Build a tree for testing
 
-    Tree Structure:
-            a
-          /   \
-         b     c
-       /  \   / \
-      d   e  f   g
-    """
-    a, b, c, d, e, f, g = (BTNode(i) for i in 'abcdefg')
-    a.left, a.right = b, c
-    b.left, b.right = d, e
-    c.left, c.right = f, g
-    return BTree(root=a)
+Tree Structure:
+        a
+      /   \
+     b     c
+   /  \   / \
+  d   e  f   g
+"""
+a, b, c, d, e, f, g = (BTNode(i) for i in 'abcdefg')
+a.left, a.right = b, c
+b.left, b.right = d, e
+c.left, c.right = f, g
+tree = BTree(root=a)
 
-
-tree = buildTree()
 tree.preOrderRec()
 tree.inOrderRec()
 tree.postOrderRec()
@@ -185,3 +197,4 @@ tree.postOrder()
 tree.levelOrder()
 print(tree.maxDepth())
 print(tree.minDepth())
+tree.pathToNode(d)
