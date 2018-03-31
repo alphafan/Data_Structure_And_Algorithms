@@ -29,5 +29,5 @@
 - [Get Max/Min Depths of a Tree](tree/docs/Get_Height.md)
 - [Check if Tree is Balance](tree/docs/Get_Height.md)
 
-### Graph [Full Code](graph/graph.py)
+### Graph [Full Code](graph/graph_visit.py)
 - [Graph Visit(Depth First/Breadth First)](graph/docs/Graph_Visit.md)
