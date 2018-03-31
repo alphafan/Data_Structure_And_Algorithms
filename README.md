@@ -30,4 +30,4 @@
 - [Check if Tree is Balance](tree/docs/Get_Height.md)
 
 ### Graph [Full Code](graph/graph.py)
-- [Graph Visit](graph/docs/Graph_Visit.md)
+- [Graph Visit(Depth First/Breadth First)](graph/docs/Graph_Visit.md)
