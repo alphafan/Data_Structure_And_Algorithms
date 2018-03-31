@@ -31,6 +31,7 @@
 
 ### Graph [Full Code](graph/graph_visit.py)
 - [Graph Visit(Depth First/Breadth First)](graph/docs/Graph_Visit.md)
+- [Find path between node](graph/graph_path.py)
 
 ### Backtracking Algorithm
 - [Knight’s tour problem](backtracking/knights_tour.py)
