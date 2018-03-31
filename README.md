@@ -26,11 +26,11 @@
     - Breadth First Search (Level Order Visit)
         - [Level Order](tree/docs/Level_Order.md)
 - [Get Max/Min Depths of a Tree](tree/docs/Get_Height.md)
-- [Check if Tree is Balance](tree/docs/Get_Height.md)
+- [Check if a Tree is Balance](tree/docs/Get_Height.md)
 - [Get Path to a Node](tree/docs/Path_To_Node.md)
 
 ### Graph [Full Code](graph/graph_visit.py)
-- [Graph Visit(Depth First/Breadth First)](graph/docs/Graph_Visit.md)
+- [Graph Visit (Depth First/Breadth First)](graph/docs/Graph_Visit.md)
 - [Find path between node](graph/graph_path.py)
 
 ### Backtracking Algorithm
