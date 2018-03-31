@@ -1,4 +1,11 @@
 # The Knight’s tour problem
+"""
+0  13 18 7  24
+5  8  1  12 17
+14 19 6  23 2
+9  4  21 16 11
+20 15 10 3  22
+"""
 
 
 tour = [[-1 for _ in range(5)] for _ in range(5)]
