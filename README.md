@@ -34,3 +34,4 @@
 
 ### Backtracking Algorithm
 - [Knight’s tour problem](backtracking/knights_tour.py)
+- [Rat in a Maze](backtracking/rat_in_a_maze.py)
