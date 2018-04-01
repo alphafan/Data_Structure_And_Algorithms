@@ -12,6 +12,7 @@
 - [Circular List](list/docs/Circular_List.md)
 
 ### Quick Sort [Full Code](sort)
+- [Bubble Sort]
 - [Merge Sort](sort/docs/Merge_Sort.md)
 - [Partition Sort](sort/docs/Partition_Sort.md)
 
