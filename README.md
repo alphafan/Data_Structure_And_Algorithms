@@ -1,7 +1,8 @@
 # Implement Data Structure with Python
 
 ### Array
-- [Max Continuous Sum](array/max_continuous_sum.py)
+- [Max Continuous Sum in Sub-Array](array/max_continuous_sum.py)
+- [Max Continuous Product in Sub-Array](array/max_continous_product.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
