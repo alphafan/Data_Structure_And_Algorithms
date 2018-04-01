@@ -1,5 +1,8 @@
 # Implement Data Structure with Python
 
+### Array
+- [Max Continuous Sum](array/max_continuous_sum.py)
+
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
 - [Delete Node](list/docs/Delete_Node.md)
@@ -37,3 +40,4 @@
 - [Knight’s tour problem](backtracking/knights_tour.py)
 - [Rat in a Maze](backtracking/rat_in_a_maze.py)
 - [Eight Queen Puzzle](backtracking/eight_queens_problem.py)
+
