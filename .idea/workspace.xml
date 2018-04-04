@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -30,8 +30,18 @@
       <file leaf-file-name="rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="72" />
+            <state relative-caret-position="328">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reorder_an_array_according_to_given_indexes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -52,16 +62,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="count_inversions_of_size_three_in_a_given_array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -110,8 +110,8 @@
       <file leaf-file-name="rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="82" />
+            <state relative-caret-position="152">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,6 +184,7 @@
         <option value="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
         <option value="$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py" />
       </list>
     </option>
   </component>
@@ -266,25 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’">
-    <configuration name="Maximum_Sum_Path_in_Two_Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.reorder_an_array_according_to_given_indexes">
     <configuration name="count_the_number_of_possible_triangles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,20 +340,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="reorder_an_array_according_to_given_indexes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
-      <item index="1" class="java.lang.String" itemvalue="Python.max_continous_product" />
-      <item index="2" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
-      <item index="3" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
-      <item index="4" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+      <item index="0" class="java.lang.String" itemvalue="Python.max_continous_product" />
+      <item index="1" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+      <item index="2" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+      <item index="3" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+      <item index="4" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
-        <item index="1" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
-        <item index="2" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
-        <item index="3" class="java.lang.String" itemvalue="Python.max_continous_product" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+        <item index="0" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+        <item index="2" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+        <item index="3" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+        <item index="4" class="java.lang.String" itemvalue="Python.max_continous_product" />
       </list>
     </recent_temporary>
   </component>
@@ -387,13 +388,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00008" summary="reverse">
-      <created>1522066796502</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1522066796502</updated>
     </task>
     <task id="LOCAL-00009" summary="update">
       <created>1522066831957</created>
@@ -731,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522821503784</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="rearrange array">
+      <created>1522821554718</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1522821554718</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -828,18 +829,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1237,22 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1261,6 +1239,30 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
