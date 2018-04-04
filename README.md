@@ -4,6 +4,7 @@
 - [Max Continuous Sum in Sub-Array](array/max_continuous_sum.py)
 - [Max Continuous Product in Sub-Array](array/max_continous_product.py)
 - [Common Elements in Three Sorted Array](array/common_three_sorted_array.py)
+- [Count Inversions of size three in a given array](array/count_inversions_of_size_three_in_a_given_array.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)

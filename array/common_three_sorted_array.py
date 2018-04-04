@@ -1,4 +1,7 @@
-""" Find common elements in three sorted array """
+""" Find common elements in three sorted array
+
+https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/
+"""
 
 
 def commonElements(nums1, nums2, nums3):
