@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="257">
-                <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <first_editor relative-caret-position="216">
+                <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -397,13 +397,6 @@
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
     </task>
-    <task id="LOCAL-00016" summary="sort">
-      <created>1522069187469</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1522069187469</updated>
-    </task>
     <task id="LOCAL-00017" summary="partition sort">
       <created>1522070181253</created>
       <option name="number" value="00017" />
@@ -740,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522830198090</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="typo">
+      <created>1522830239880</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1522830239881</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -801,7 +801,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update doc" />
     <MESSAGE value="find all paths" />
     <MESSAGE value="&#10;update" />
     <MESSAGE value="comment" />
@@ -826,7 +825,8 @@
     <MESSAGE value="number triplets" />
     <MESSAGE value="zig zag" />
     <MESSAGE value="string" />
-    <option name="LAST_COMMIT_MESSAGE" value="string" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1267,8 +1267,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="257">
-            <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <first_editor relative-caret-position="216">
+            <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
             <folding />
           </first_editor>
           <second_editor />
