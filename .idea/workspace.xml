@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="108" lean-forward="false" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
+              <first_editor relative-caret-position="171">
+                <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maximum_Sum_Path_in_Two_Arrays.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,18 +107,6 @@
             <state relative-caret-position="285">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="max_continuous_sum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/max_continuous_sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +185,7 @@
         <option value="$PROJECT_DIR$/array/common_three_sorted_array.py" />
         <option value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
         <option value="$PROJECT_DIR$/array/Longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
+        <option value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -237,11 +236,6 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -272,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays">
+  <component name="RunManager" selected="Python.Maximum_Sum_Path_in_Two_Arrays">
     <configuration name="Longest_Span_with_same_Sum_in_two_Binary_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +280,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Maximum_Sum_Path_in_Two_Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,38 +357,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="inert_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sort/inert_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.inert_sort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
-      <item index="2" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
-      <item index="3" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+      <item index="0" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
+      <item index="1" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+      <item index="2" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
-        <item index="1" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
-        <item index="2" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
-        <item index="3" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
-        <item index="4" class="java.lang.String" itemvalue="Python.inert_sort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+        <item index="2" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
+        <item index="3" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+        <item index="4" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
       </list>
     </recent_temporary>
   </component>
@@ -393,13 +387,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00002" summary="rename">
-      <created>1522059952786</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1522059952786</updated>
     </task>
     <task id="LOCAL-00003" summary="comments">
       <created>1522060174735</created>
@@ -737,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522810618423</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="longest subarray equal sum">
+      <created>1522812813007</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1522812813012</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -798,7 +792,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove useless" />
     <MESSAGE value="merge sort" />
     <MESSAGE value="sort" />
     <MESSAGE value="partition sort" />
@@ -823,7 +816,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="push" />
     <MESSAGE value="flip 0s" />
-    <option name="LAST_COMMIT_MESSAGE" value="flip 0s" />
+    <MESSAGE value="longest subarray equal sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="longest subarray equal sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,16 +833,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/docs/Circular_List.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtracking/knights_tour.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1263,11 +1247,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="108" lean-forward="false" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
             <folding />
           </first_editor>
           <second_editor />

@@ -7,6 +7,7 @@
 - [Count Inversions of size three in a given array](array/count_inversions_of_size_three_in_a_given_array.py)
 - [Find zeroes to be flipped so that number of consecutive 1’s is maximized](array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py)
 - [Longest Span with same Sum in two Binary arrays](array/longest_Span_with_same_Sum_in_two_Binary_arrays.py)
+- [Maximum Sum Path in Two Arrays](array/Maximum_Sum_Path_in_Two_Arrays.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
