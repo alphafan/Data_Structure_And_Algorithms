@@ -8,6 +8,7 @@
 - [Find zeroes to be flipped so that number of consecutive 1’s is maximized](array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py)
 - [Longest Span with same Sum in two Binary arrays](array/longest_Span_with_same_Sum_in_two_Binary_arrays.py)
 - [Maximum Sum Path in Two Arrays](array/Maximum_Sum_Path_in_Two_Arrays.py)
+- [Rearrange array in alternating positive & negative items with O(1) extra space](array/rearrange_array_in_alternating_positive_&_negative_items_with_O(1)_extra_space.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/array/max_continous_product.py" afterPath="$PROJECT_DIR$/array/max_continous_product.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="170" lean-forward="false" selection-start-line="10" selection-start-column="170" selection-end-line="10" selection-end-column="170" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -57,19 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bubble_Sort.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/docs/Bubble_Sort.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="common_three_sorted_array.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/common_three_sorted_array.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,21 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bubble_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/bubble_sort.py">
+      <file leaf-file-name="max_continous_product.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="266">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="max_continous_product.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
+      <file leaf-file-name="count_the_number_of_possible_triangles.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/count_the_number_of_possible_triangles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -184,8 +182,11 @@
         <option value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
         <option value="$PROJECT_DIR$/array/Longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
         <option value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/array/max_continous_product.py" />
+        <option value="$PROJECT_DIR$/count_the_number_of_possible_triangles.py" />
+        <option value="$PROJECT_DIR$/array/count_the_number_of_possible_triangles.py" />
+        <option value="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -235,11 +236,6 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -252,6 +248,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/array" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sort/docs" />
       <recent name="$PROJECT_DIR$/tree/docs" />
@@ -270,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.max_continous_product">
+  <component name="RunManager" selected="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space">
     <configuration name="Longest_Span_with_same_Sum_in_two_Binary_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,7 +306,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="count_inversions_of_size_three_in_a_given_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="count_the_number_of_possible_triangles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -319,25 +318,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/count_the_number_of_possible_triangles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,20 +342,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
-      <item index="1" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
-      <item index="4" class="java.lang.String" itemvalue="Python.max_continous_product" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+      <item index="2" class="java.lang.String" itemvalue="Python.max_continous_product" />
+      <item index="3" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.max_continous_product" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
-        <item index="3" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
-        <item index="4" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+        <item index="1" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+        <item index="2" class="java.lang.String" itemvalue="Python.max_continous_product" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -391,20 +390,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00004" summary="get value">
-      <created>1522066007365</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1522066007365</updated>
-    </task>
-    <task id="LOCAL-00005" summary="doc">
-      <created>1522066297336</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1522066297336</updated>
     </task>
     <task id="LOCAL-00006" summary="update doc">
       <created>1522066480646</created>
@@ -735,7 +720,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522814391537</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="max product">
+      <created>1522814741730</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1522814741730</updated>
+    </task>
+    <task id="LOCAL-00054" summary="triangles">
+      <created>1522818759417</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1522818759417</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,8 +795,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sort" />
-    <MESSAGE value="partition sort" />
     <MESSAGE value="binary search" />
     <MESSAGE value="tree visit" />
     <MESSAGE value="readme" />
@@ -821,7 +818,9 @@
     <MESSAGE value="flip 0s" />
     <MESSAGE value="longest subarray equal sum" />
     <MESSAGE value="path sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="path sum" />
+    <MESSAGE value="max product" />
+    <MESSAGE value="triangles" />
+    <option name="LAST_COMMIT_MESSAGE" value="triangles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -837,21 +836,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backtracking/knights_tour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/list_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4275">
-          <caret line="225" column="33" lean-forward="false" selection-start-line="225" selection-start-column="33" selection-end-line="225" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1175,7 +1159,7 @@
         <state relative-caret-position="285">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1251,22 +1235,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/count_the_number_of_possible_triangles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="170" lean-forward="false" selection-start-line="10" selection-start-column="170" selection-end-line="10" selection-end-column="170" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
