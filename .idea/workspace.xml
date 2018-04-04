@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic/min_matrix_mutilplication.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic/knapsack.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="348">
-                <caret line="65" column="66" lean-forward="false" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+              <first_editor relative-caret-position="357">
+                <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knapsack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic/knapsack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,16 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Find the smallest positive integer value that cannot be represented as sum of any subset of a given array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/Find the smallest positive integer value that cannot be represented as sum of any subset of a given array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Count triplets with sum smaller than a given value.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/Count triplets with sum smaller than a given value.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sort/docs/Partition_Sort.md" />
         <option value="$PROJECT_DIR$/search/binary_search.py" />
         <option value="$PROJECT_DIR$/search/docs/Binary_Search.md" />
         <option value="$PROJECT_DIR$/stack/stack.py" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/array/longest_common_sequence.py" />
         <option value="$PROJECT_DIR$/array/min_cost_path.py" />
         <option value="$PROJECT_DIR$/dynamic/min_matrix_mutilplication.py" />
+        <option value="$PROJECT_DIR$/dynamic/knapsack.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -238,6 +238,11 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -272,25 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.longest_common_sequence">
-    <configuration name="Longest Bitonic Subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_zig_zag_sequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.knapsack">
     <configuration name="bitonic_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,6 +291,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/bitonic_sequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/knapsack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +369,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
-      <item index="2" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
-      <item index="3" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
-      <item index="4" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
+      <item index="1" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
+      <item index="2" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+      <item index="3" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.knapsack" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
-        <item index="3" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.knapsack" />
+        <item index="1" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
+        <item index="4" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
       </list>
     </recent_temporary>
   </component>
@@ -393,13 +398,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00024" summary="non recursive visit">
-      <created>1522078507119</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1522078507119</updated>
     </task>
     <task id="LOCAL-00025" summary="Level order visit">
       <created>1522079064296</created>
@@ -737,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522846444149</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="matrix">
+      <created>1522855128661</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1522855128661</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -798,7 +803,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8 queens" />
     <MESSAGE value="array" />
     <MESSAGE value="bubble sort" />
     <MESSAGE value="update" />
@@ -823,7 +827,8 @@
     <MESSAGE value="common sub sequence" />
     <MESSAGE value="min cost path" />
     <MESSAGE value="dynamic programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic programming" />
+    <MESSAGE value="matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,16 +844,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sort/docs/Partition_Sort.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/docs/Binary_Search.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1253,11 +1248,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic/knapsack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="348">
-            <caret line="65" column="66" lean-forward="false" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+          <first_editor relative-caret-position="357">
+            <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
