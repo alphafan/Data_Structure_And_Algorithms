@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/Convert array into Zig-Zag fashion.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/string/kpm_substring.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+              <first_editor relative-caret-position="257">
+                <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kpm_substring.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/kpm_substring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,16 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="max_continous_product.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="count_the_number_of_possible_triangles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/count_the_number_of_possible_triangles.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/docs/Delete_Node.md" />
         <option value="$PROJECT_DIR$/list/docs/Get_Value.md" />
         <option value="$PROJECT_DIR$/list/docs/Insert_Node.md" />
         <option value="$PROJECT_DIR$/list/docs/Reverse_List.md" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/array/Find the smallest positive integer value that cannot be represented as sum of any subset of a given array.py" />
         <option value="$PROJECT_DIR$/array/Count triplets with sum smaller than a given value.py" />
         <option value="$PROJECT_DIR$/array/Convert array into Zig-Zag fashion.py" />
+        <option value="$PROJECT_DIR$/string/kpm_substring.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -271,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Convert array into Zig-Zag fashion">
+  <component name="RunManager" selected="Python.kpm_substring">
     <configuration name="Convert array into Zig-Zag fashion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,19 +326,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kpm_substring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/kpm_substring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,19 +363,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
-      <item index="1" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
-      <item index="2" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Count triplets with sum smaller than a given value" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
+      <item index="0" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Count triplets with sum smaller than a given value" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
+      <item index="4" class="java.lang.String" itemvalue="Python.kpm_substring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Count triplets with sum smaller than a given value" />
-        <item index="2" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
-        <item index="3" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
-        <item index="4" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+        <item index="0" class="java.lang.String" itemvalue="Python.kpm_substring" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Count triplets with sum smaller than a given value" />
+        <item index="3" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
+        <item index="4" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
       </list>
     </recent_temporary>
   </component>
@@ -392,13 +392,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00014" summary="remove useless">
-      <created>1522068275551</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1522068275551</updated>
     </task>
     <task id="LOCAL-00015" summary="merge sort">
       <created>1522069146083</created>
@@ -736,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522826300639</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="zig zag">
+      <created>1522827888036</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1522827888036</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -797,7 +797,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="is balance" />
     <MESSAGE value="graph visit" />
     <MESSAGE value="update doc" />
     <MESSAGE value="find all paths" />
@@ -822,7 +821,8 @@
     <MESSAGE value="rotate array sum" />
     <MESSAGE value="smallest impossible sum of sub array" />
     <MESSAGE value="number triplets" />
-    <option name="LAST_COMMIT_MESSAGE" value="number triplets" />
+    <MESSAGE value="zig zag" />
+    <option name="LAST_COMMIT_MESSAGE" value="zig zag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,16 +838,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stack_queue/docs/Queue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/docs/Level_Order.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1262,11 +1252,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/string/kpm_substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+          <first_editor relative-caret-position="257">
+            <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
             <folding />
           </first_editor>
           <second_editor />

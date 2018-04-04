@@ -16,6 +16,9 @@
 - [Count triplets with sum smaller than a given value](array/Count%20triplets%20with%20sum%20smaller%20than%20a%20given%20value.py)
 - [Convert array to ZigZag Fashion](array/Convert%20array%20into%20Zig-Zag%20fashion.py)
 
+### String
+- [KMP Algorithm to Get Index of Sub string](string/kpm_substring.py)
+
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
 - [Delete Node](list/docs/Delete_Node.md)
