@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/min_cost_path.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/array/longest_common_sequence.py" afterPath="$PROJECT_DIR$/dynamic/longest_common_sequence.py" />
+      <change beforePath="$PROJECT_DIR$/array/min_cost_path.py" afterPath="$PROJECT_DIR$/dynamic/min_cost_path.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="292">
-                <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <first_editor relative-caret-position="357">
+                <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -29,7 +30,7 @@
         </entry>
       </file>
       <file leaf-file-name="min_cost_path.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/min_cost_path.py">
+        <entry file="file://$PROJECT_DIR$/dynamic/min_cost_path.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
@@ -39,7 +40,7 @@
         </entry>
       </file>
       <file leaf-file-name="longest_common_sequence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/longest_common_sequence.py">
+        <entry file="file://$PROJECT_DIR$/dynamic/longest_common_sequence.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -251,6 +252,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamic" />
       <recent name="$PROJECT_DIR$/array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -338,7 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_common_sequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/longest_common_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,13 +394,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00022" summary="readme">
-      <created>1522075368820</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1522075368820</updated>
     </task>
     <task id="LOCAL-00023" summary="update doc">
       <created>1522075776568</created>
@@ -736,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522845590209</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="min cost path">
+      <created>1522846313382</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1522846313382</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -797,7 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update readme" />
     <MESSAGE value="path to node" />
     <MESSAGE value="8 queens" />
     <MESSAGE value="array" />
@@ -822,7 +823,8 @@
     <MESSAGE value="update doc" />
     <MESSAGE value="longest increasing sequence" />
     <MESSAGE value="common sub sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="common sub sequence" />
+    <MESSAGE value="min cost path" />
+    <option name="LAST_COMMIT_MESSAGE" value="min cost path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1238,7 +1240,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/longest_common_sequence.py">
+    <entry file="file://$PROJECT_DIR$/dynamic/longest_common_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -1246,7 +1248,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/min_cost_path.py">
+    <entry file="file://$PROJECT_DIR$/dynamic/min_cost_path.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
@@ -1257,8 +1259,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="292">
-            <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <first_editor relative-caret-position="357">
+            <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
