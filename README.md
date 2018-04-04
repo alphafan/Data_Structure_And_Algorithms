@@ -5,6 +5,7 @@
 - [Max Continuous Product in Sub-Array](array/max_continous_product.py)
 - [Common Elements in Three Sorted Array](array/common_three_sorted_array.py)
 - [Count Inversions of size three in a given array](array/count_inversions_of_size_three_in_a_given_array.py)
+- [Find zeroes to be flipped so that number of consecutive 1’s is maximized](array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)

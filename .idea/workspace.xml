@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/array/common_three_sorted_array.py" afterPath="$PROJECT_DIR$/array/common_three_sorted_array.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,12 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="133">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <caret line="7" column="158" lean-forward="false" selection-start-line="7" selection-start-column="158" selection-end-line="7" selection-end-column="158" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -52,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common_three_sorted_array.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common_three_sorted_array.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/common_three_sorted_array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -77,16 +86,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eight_queens_problem.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/eight_queens_problem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -184,9 +183,10 @@
         <option value="$PROJECT_DIR$/sort/bubble_sort.py" />
         <option value="$PROJECT_DIR$/sort/docs/Bubble_Sort.md" />
         <option value="$PROJECT_DIR$/sort/inert_sort.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py" />
         <option value="$PROJECT_DIR$/array/common_three_sorted_array.py" />
+        <option value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -271,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.count_inversions_of_size_three_in_a_given_array">
+  <component name="RunManager" selected="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized">
     <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +326,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="inert_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,38 +362,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="max_continous_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/max_continous_product.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.max_continous_product" />
-      <item index="1" class="java.lang.String" itemvalue="Python.bubble_sort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.inert_sort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+      <item index="0" class="java.lang.String" itemvalue="Python.bubble_sort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.inert_sort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
+      <item index="3" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+      <item index="4" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
-        <item index="1" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
-        <item index="2" class="java.lang.String" itemvalue="Python.inert_sort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bubble_sort" />
-        <item index="4" class="java.lang.String" itemvalue="Python.max_continous_product" />
+        <item index="0" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
+        <item index="1" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+        <item index="2" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
+        <item index="3" class="java.lang.String" itemvalue="Python.inert_sort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bubble_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -729,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522807834204</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="push">
+      <created>1522809261537</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1522809261537</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -790,7 +797,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="doc" />
     <MESSAGE value="get circular node" />
     <MESSAGE value="remove useless" />
     <MESSAGE value="merge sort" />
@@ -815,7 +821,8 @@
     <MESSAGE value="array" />
     <MESSAGE value="bubble sort" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -831,14 +838,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tree/binary_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2964">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="172" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graph/docs/Graph_Visit.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1241,17 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1265,6 +1253,25 @@
         <state relative-caret-position="38">
           <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="158" lean-forward="false" selection-start-line="7" selection-start-column="158" selection-end-line="7" selection-end-column="158" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
