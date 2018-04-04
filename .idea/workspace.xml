@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -18,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="241">
-                <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="180" lean-forward="false" selection-start-line="13" selection-start-column="180" selection-end-line="13" selection-end-column="180" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="83" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,16 +73,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common_three_sorted_array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/common_three_sorted_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -184,6 +185,7 @@
         <option value="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
         <option value="$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" />
         <option value="$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py" />
+        <option value="$PROJECT_DIR$/array/find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -234,11 +236,6 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -272,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reorder_an_array_according_to_given_indexes">
+  <component name="RunManager" selected="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed">
     <configuration name="count_the_number_of_possible_triangles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,7 +288,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="max_continous_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -303,7 +300,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/max_continous_product.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +361,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.max_continous_product" />
-      <item index="1" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
-      <item index="2" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
-      <item index="3" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
-      <item index="4" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
+      <item index="0" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+      <item index="1" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+      <item index="2" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+      <item index="3" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
-        <item index="2" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
-        <item index="3" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
-        <item index="4" class="java.lang.String" itemvalue="Python.max_continous_product" />
+        <item index="0" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
+        <item index="1" class="java.lang.String" itemvalue="Python.reorder_an_array_according_to_given_indexes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+        <item index="3" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+        <item index="4" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
       </list>
     </recent_temporary>
   </component>
@@ -393,13 +390,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00010" summary="push">
-      <created>1522067228373</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1522067228373</updated>
     </task>
     <task id="LOCAL-00011" summary="doc">
       <created>1522067257048</created>
@@ -737,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522823111496</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="doc">
+      <created>1522823178085</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1522823178085</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -798,7 +795,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme" />
     <MESSAGE value="non recursive visit" />
     <MESSAGE value="Level order visit" />
     <MESSAGE value="height of a tree" />
@@ -823,7 +819,8 @@
     <MESSAGE value="triangles" />
     <MESSAGE value="rearrange array" />
     <MESSAGE value="reorder array" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorder array" />
+    <MESSAGE value="doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,13 +836,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sort/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/partition_sor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1260,11 +1250,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="241">
-            <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="180" lean-forward="false" selection-start-line="13" selection-start-column="180" selection-end-line="13" selection-end-column="180" />
             <folding />
           </first_editor>
           <second_editor />
