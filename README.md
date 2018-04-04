@@ -3,6 +3,7 @@
 ### Array
 - [Max Continuous Sum in Sub-Array](array/max_continuous_sum.py)
 - [Max Continuous Product in Sub-Array](array/max_continous_product.py)
+- [Common Elements in Three Sorted Array](array/common_three_sorted_array.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
@@ -12,7 +13,7 @@
 - [Circular List](list/docs/Circular_List.md)
 
 ### Quick Sort [Full Code](sort)
-- [Bubble Sort]
+- [Bubble Sort](sort/docs/Bubble_Sort.md)
 - [Merge Sort](sort/docs/Merge_Sort.md)
 - [Partition Sort](sort/docs/Partition_Sort.md)
 
