@@ -17,7 +17,7 @@
 - [Convert array to ZigZag Fashion](array/Convert%20array%20into%20Zig-Zag%20fashion.py)
 
 ### String
-- [KMP Algorithm to Get Index of Sub string](string/kpm_substring.py)
+- [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
