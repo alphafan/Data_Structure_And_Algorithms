@@ -13,6 +13,7 @@
 - [Reorder an array according to given indexes](array/reorder_an_array_according_to_given_indexes.py)
 - [Find maximum value of Sum( i*arr\[i\]) with only rotations on given array allowed](array/find_maximum_value_of_Sum(%20i*arr%5Bi%5D)_with_only_rotations_on_given_array_allowed.py)
 - [Smallest Impossible Sum of Sub-Array](array/Find%20the%20smallest%20positive%20integer%20value%20that%20cannot%20be%20represented%20as%20sum%20of%20any%20subset%20of%20a%20given%20array.py)
+- [Count triplets with sum smaller than a given value](array/Count%20triplets%20with%20sum%20smaller%20than%20a%20given%20value.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
