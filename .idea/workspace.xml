@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/longest_common_sequence.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/min_cost_path.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="302">
-                <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <first_editor relative-caret-position="292">
+                <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="min_cost_path.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/min_cost_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,16 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reorder_an_array_according_to_given_indexes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sort/docs/Merge_Sort.md" />
         <option value="$PROJECT_DIR$/sort/partition_sor.py" />
         <option value="$PROJECT_DIR$/sort/docs/Partition_Sort.md" />
         <option value="$PROJECT_DIR$/search/binary_search.py" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/array/bitonic_sequence.py" />
         <option value="$PROJECT_DIR$/array/longest_bitonic_sequence.py" />
         <option value="$PROJECT_DIR$/array/longest_common_sequence.py" />
+        <option value="$PROJECT_DIR$/array/min_cost_path.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -237,11 +237,6 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,13 +392,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00021" summary="tree visit">
-      <created>1522075298354</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1522075298354</updated>
     </task>
     <task id="LOCAL-00022" summary="readme">
       <created>1522075368820</created>
@@ -741,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522835381060</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="common sub sequence">
+      <created>1522845590209</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1522845590209</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -802,7 +797,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rate in a maze" />
     <MESSAGE value="update readme" />
     <MESSAGE value="path to node" />
     <MESSAGE value="8 queens" />
@@ -827,7 +821,8 @@
     <MESSAGE value="longest zig-zag sequence" />
     <MESSAGE value="update doc" />
     <MESSAGE value="longest increasing sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="longest increasing sequence" />
+    <MESSAGE value="common sub sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="common sub sequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,16 +838,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/docs/Reverse_List.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="513">
-            <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/docs/Delete_Node.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1261,11 +1246,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/min_cost_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="302">
-            <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <first_editor relative-caret-position="292">
+            <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
