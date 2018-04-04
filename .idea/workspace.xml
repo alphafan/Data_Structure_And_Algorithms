@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/longest_increasing_sequence.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -18,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="36">
-                <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <first_editor relative-caret-position="264">
+                <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longest_increasing_sequence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/longest_increasing_sequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,31 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="reorder_an_array_according_to_given_indexes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/reorder_an_array_according_to_given_indexes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/docs/Insert_Node.md" />
-        <option value="$PROJECT_DIR$/list/docs/Reverse_List.md" />
         <option value="$PROJECT_DIR$/list/docs/Circular_List.md" />
         <option value="$PROJECT_DIR$/sort/merge_sort.py" />
         <option value="$PROJECT_DIR$/sort/docs/Merge_Sort.md" />
@@ -187,6 +176,8 @@
         <option value="$PROJECT_DIR$/array/Convert array into Zig-Zag fashion.py" />
         <option value="$PROJECT_DIR$/string/kpm_substring.py" />
         <option value="$PROJECT_DIR$/dynamic/Longest Bitonic Subsequence.py" />
+        <option value="$PROJECT_DIR$/array/longest_increasing_sequence.py" />
+        <option value="$PROJECT_DIR$/array/bitonic_sequence.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -237,6 +228,11 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -270,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Longest Bitonic Subsequence">
+  <component name="RunManager" selected="Python.bitonic_sequence">
     <configuration name="Convert array into Zig-Zag fashion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,24 +280,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/Convert array into Zig-Zag fashion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Count triplets with sum smaller than a given value" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/Count triplets with sum smaller than a given value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +303,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bitonic_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -337,7 +315,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/bitonic_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,20 +339,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="longest_increasing_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_increasing_sequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Count triplets with sum smaller than a given value" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
-      <item index="3" class="java.lang.String" itemvalue="Python.kpm_substring" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
+      <item index="1" class="java.lang.String" itemvalue="Python.kpm_substring" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kpm_substring" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Count triplets with sum smaller than a given value" />
-        <item index="4" class="java.lang.String" itemvalue="Python.find_maximum_value_of_Sum( i*arr[i])_with_only_rotations_on_given_array_allowed" />
+        <item index="0" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
+        <item index="1" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kpm_substring" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
       </list>
     </recent_temporary>
   </component>
@@ -391,13 +387,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00019" summary="binary search">
-      <created>1522071987073</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1522071987073</updated>
     </task>
     <task id="LOCAL-00020" summary="update">
       <created>1522073771827</created>
@@ -735,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522831341580</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="update doc">
+      <created>1522831422463</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1522831422463</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -819,9 +815,9 @@
     <MESSAGE value="zig zag" />
     <MESSAGE value="string" />
     <MESSAGE value="typo" />
-    <MESSAGE value="update doc" />
     <MESSAGE value="longest zig-zag sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="longest zig-zag sequence" />
+    <MESSAGE value="update doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="update doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,25 +828,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/list_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/docs/Get_Value.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1257,11 +1239,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/longest_increasing_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/bitonic_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <first_editor relative-caret-position="264">
+            <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
             <folding />
           </first_editor>
           <second_editor />

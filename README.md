@@ -16,7 +16,7 @@
 - [Count triplets with sum smaller than a given value](array/Count%20triplets%20with%20sum%20smaller%20than%20a%20given%20value.py)
 - [Convert array to ZigZag Fashion](array/Convert%20array%20into%20Zig-Zag%20fashion.py)
 - [Longest Zig-Zag Sequence](array/longest_zig_zag_sequence.py)
-
+- [Longest Increasing Sequence](array/longest_increasing_sequence.py)
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
 
