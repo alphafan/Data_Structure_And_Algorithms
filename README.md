@@ -10,6 +10,7 @@
 - [Maximum Sum Path in Two Arrays](array/Maximum_Sum_Path_in_Two_Arrays.py)
 - [Rearrange array in alternating positive & negative items with O(1) extra space](array/rearrange_array_in_alternating_positive_&_negative_items_with_O(1)_extra_space.py)
 - [Rearrange an array such that ‘arr\[j\]’ becomes ‘i’ if ‘arr\[i\]’ is ‘j’](array/rearrange_an_array_such_that_‘arr%5Bj%5D’_becomes_'i’_if_‘arr%5Bi%5D’_is_‘j’.py)
+- [Reorder an array according to given indexes](array/reorder_an_array_according_to_given_indexes.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)
