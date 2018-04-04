@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -24,6 +23,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,19 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Path_To_Node.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/docs/Path_To_Node.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="722">
-                <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -187,6 +183,7 @@
         <option value="$PROJECT_DIR$/array/count_the_number_of_possible_triangles.py" />
         <option value="$PROJECT_DIR$/array/rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" />
       </list>
     </option>
   </component>
@@ -269,25 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space">
-    <configuration name="Longest_Span_with_same_Sum_in_two_Binary_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’">
     <configuration name="Maximum_Sum_Path_in_Two_Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,6 +321,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,19 +358,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
-      <item index="2" class="java.lang.String" itemvalue="Python.max_continous_product" />
-      <item index="3" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
-      <item index="4" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+      <item index="1" class="java.lang.String" itemvalue="Python.max_continous_product" />
+      <item index="2" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+      <item index="3" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
-        <item index="1" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
-        <item index="2" class="java.lang.String" itemvalue="Python.max_continous_product" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rearrange_array_in_alternating_positive_&amp;_negative_items_with_O(1)_extra_space" />
+        <item index="2" class="java.lang.String" itemvalue="Python.count_the_number_of_possible_triangles" />
+        <item index="3" class="java.lang.String" itemvalue="Python.max_continous_product" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -390,13 +387,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update doc">
-      <created>1522066480646</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1522066480646</updated>
     </task>
     <task id="LOCAL-00007" summary="doc">
       <created>1522066694753</created>
@@ -734,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522818759417</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="rearrange array">
+      <created>1522820156589</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1522820156589</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -795,7 +792,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binary search" />
     <MESSAGE value="tree visit" />
     <MESSAGE value="readme" />
     <MESSAGE value="non recursive visit" />
@@ -820,7 +816,8 @@
     <MESSAGE value="path sum" />
     <MESSAGE value="max product" />
     <MESSAGE value="triangles" />
-    <option name="LAST_COMMIT_MESSAGE" value="triangles" />
+    <MESSAGE value="rearrange array" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearrange array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,17 +833,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1267,6 +1253,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/rearrange_an_array_such_that_‘arr[j]’_becomes_'i’_if_‘arr[i]’_is_‘j’.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
