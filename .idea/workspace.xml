@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/array/max_continous_product.py" afterPath="$PROJECT_DIR$/array/max_continous_product.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -101,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="max_continous_product.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="max_continous_product.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,7 +176,6 @@
         <option value="$PROJECT_DIR$/backtracking/n_queen_problem.py" />
         <option value="$PROJECT_DIR$/backtracking/eight_queens_problem.py" />
         <option value="$PROJECT_DIR$/array/max_continuous_sum.py" />
-        <option value="$PROJECT_DIR$/array/max_continous_product.py" />
         <option value="$PROJECT_DIR$/sort/bubble_sort.py" />
         <option value="$PROJECT_DIR$/sort/docs/Bubble_Sort.md" />
         <option value="$PROJECT_DIR$/sort/inert_sort.py" />
@@ -187,6 +185,7 @@
         <option value="$PROJECT_DIR$/array/Longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
         <option value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/array/max_continous_product.py" />
       </list>
     </option>
   </component>
@@ -236,6 +235,11 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -266,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Maximum_Sum_Path_in_Two_Arrays">
+  <component name="RunManager" selected="Python.max_continous_product">
     <configuration name="Longest_Span_with_same_Sum_in_two_Binary_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,24 +302,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="common_three_sorted_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/common_three_sorted_array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,20 +343,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="max_continous_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/max_continous_product.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
-      <item index="1" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
-      <item index="2" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+      <item index="0" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
+      <item index="1" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+      <item index="4" class="java.lang.String" itemvalue="Python.max_continous_product" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
-        <item index="2" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
-        <item index="3" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
-        <item index="4" class="java.lang.String" itemvalue="Python.common_three_sorted_array" />
+        <item index="0" class="java.lang.String" itemvalue="Python.max_continous_product" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Maximum_Sum_Path_in_Two_Arrays" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Longest_Span_with_same_Sum_in_two_Binary_arrays" />
+        <item index="3" class="java.lang.String" itemvalue="Python.find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized" />
+        <item index="4" class="java.lang.String" itemvalue="Python.count_inversions_of_size_three_in_a_given_array" />
       </list>
     </recent_temporary>
   </component>
@@ -387,13 +391,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00003" summary="comments">
-      <created>1522060174735</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1522060174735</updated>
     </task>
     <task id="LOCAL-00004" summary="get value">
       <created>1522066007365</created>
@@ -731,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522812813012</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="path sum">
+      <created>1522814391537</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1522814391537</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,7 +796,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="merge sort" />
     <MESSAGE value="sort" />
     <MESSAGE value="partition sort" />
     <MESSAGE value="binary search" />
@@ -817,7 +820,8 @@
     <MESSAGE value="push" />
     <MESSAGE value="flip 0s" />
     <MESSAGE value="longest subarray equal sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="longest subarray equal sum" />
+    <MESSAGE value="path sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="path sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1196,14 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/docs/Path_To_Node.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1263,6 +1259,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/max_continous_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
