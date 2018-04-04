@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/longest_zig_zag_sequence.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="151">
-                <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -393,13 +392,6 @@
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
     </task>
-    <task id="LOCAL-00018" summary="update">
-      <created>1522070220750</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1522070220750</updated>
-    </task>
     <task id="LOCAL-00019" summary="binary search">
       <created>1522071987073</created>
       <option name="number" value="00019" />
@@ -736,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522830314840</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="longest zig-zag sequence">
+      <created>1522831341580</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1522831341580</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -797,7 +796,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;update" />
     <MESSAGE value="comment" />
     <MESSAGE value="rate in a maze" />
     <MESSAGE value="update readme" />
@@ -822,7 +820,8 @@
     <MESSAGE value="string" />
     <MESSAGE value="typo" />
     <MESSAGE value="update doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="update doc" />
+    <MESSAGE value="longest zig-zag sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="longest zig-zag sequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1261,8 +1260,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="151">
-            <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />

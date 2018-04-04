@@ -1,4 +1,4 @@
-# Implement Data Structure with Python
+# Implement Data Structure and Algorithms with Python
 
 ### Array
 - [Max Continuous Sum in Sub-Array](array/max_continuous_sum.py)
