@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/longest_increasing_sequence.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/longest_common_sequence.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+              <first_editor relative-caret-position="302">
+                <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longest_common_sequence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/longest_common_sequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/docs/Circular_List.md" />
-        <option value="$PROJECT_DIR$/sort/merge_sort.py" />
         <option value="$PROJECT_DIR$/sort/docs/Merge_Sort.md" />
         <option value="$PROJECT_DIR$/sort/partition_sor.py" />
         <option value="$PROJECT_DIR$/sort/docs/Partition_Sort.md" />
@@ -178,6 +186,8 @@
         <option value="$PROJECT_DIR$/dynamic/Longest Bitonic Subsequence.py" />
         <option value="$PROJECT_DIR$/array/longest_increasing_sequence.py" />
         <option value="$PROJECT_DIR$/array/bitonic_sequence.py" />
+        <option value="$PROJECT_DIR$/array/longest_bitonic_sequence.py" />
+        <option value="$PROJECT_DIR$/array/longest_common_sequence.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -266,25 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bitonic_sequence">
-    <configuration name="Convert array into Zig-Zag fashion" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/Convert array into Zig-Zag fashion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.longest_common_sequence">
     <configuration name="Longest Bitonic Subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,19 +313,37 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="kpm_substring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="longest_bitonic_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/kpm_substring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_bitonic_sequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="longest_common_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_common_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,19 +368,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
-      <item index="1" class="java.lang.String" itemvalue="Python.kpm_substring" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
-      <item index="4" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
+      <item index="2" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
+      <item index="3" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
-        <item index="3" class="java.lang.String" itemvalue="Python.kpm_substring" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Convert array into Zig-Zag fashion" />
+        <item index="0" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+        <item index="1" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Longest Bitonic Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -387,13 +397,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update">
-      <created>1522073771827</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1522073771827</updated>
     </task>
     <task id="LOCAL-00021" summary="tree visit">
       <created>1522075298354</created>
@@ -731,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522831422463</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="longest increasing sequence">
+      <created>1522835381060</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1522835381060</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,7 +802,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comment" />
     <MESSAGE value="rate in a maze" />
     <MESSAGE value="update readme" />
     <MESSAGE value="path to node" />
@@ -817,7 +826,8 @@
     <MESSAGE value="typo" />
     <MESSAGE value="longest zig-zag sequence" />
     <MESSAGE value="update doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="update doc" />
+    <MESSAGE value="longest increasing sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="longest increasing sequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,31 +838,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/docs/Get_Value.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1482">
-            <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/docs/Insert_Node.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-15">
-            <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/docs/Reverse_List.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1255,11 +1245,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/longest_bitonic_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/longest_common_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <first_editor relative-caret-position="302">
+            <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
