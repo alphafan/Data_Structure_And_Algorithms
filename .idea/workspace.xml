@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic/can_equally_sum_partition.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic/subset_sum.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="665">
-                <caret line="71" column="81" lean-forward="false" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
+              <first_editor relative-caret-position="677">
+                <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subset_sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic/subset_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,16 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="longest_common_sequence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic/longest_common_sequence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tree/docs/Recursive_Visit.md" />
         <option value="$PROJECT_DIR$/tree/docs/Non_Recursive_Visit.md" />
         <option value="$PROJECT_DIR$/tree/docs/Level_Order.md" />
         <option value="$PROJECT_DIR$/list/list_impl.py" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/dynamic/bitonic_sequence.py" />
         <option value="$PROJECT_DIR$/dynamic/palidrome_partitions.py" />
         <option value="$PROJECT_DIR$/dynamic/can_equally_sum_partition.py" />
+        <option value="$PROJECT_DIR$/dynamic/subset_sum.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -239,11 +239,6 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,13 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update">
-      <created>1522080588757</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1522080588757</updated>
     </task>
     <task id="LOCAL-00031" summary="is balance">
       <created>1522114576443</created>
@@ -744,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522904617154</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="can partition">
+      <created>1522906148368</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1522906148368</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -805,7 +800,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="longest subarray equal sum" />
     <MESSAGE value="path sum" />
     <MESSAGE value="max product" />
     <MESSAGE value="triangles" />
@@ -830,7 +824,8 @@
     <MESSAGE value="max continuous sum" />
     <MESSAGE value="bitonic" />
     <MESSAGE value="palindrome partitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindrome partitions" />
+    <MESSAGE value="can partition" />
+    <option name="LAST_COMMIT_MESSAGE" value="can partition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,16 +841,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tree/docs/Recursive_Visit.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="267">
-            <caret line="50" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/docs/Level_Order.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1253,11 +1238,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic/subset_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="665">
-            <caret line="71" column="81" lean-forward="false" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
+          <first_editor relative-caret-position="677">
+            <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
             <folding />
           </first_editor>
           <second_editor />

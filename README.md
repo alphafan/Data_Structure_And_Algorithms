@@ -70,3 +70,4 @@
 - [Max Bitonic Sequence Length](dynamic/bitonic_sequence.py)
 - [Min Palindrome Partition](dynamic/palidrome_partitions.py)
 - [Can Partition into Two Parts of Same Sum](dynamic/can_equally_sum_partition.py)
+- [Subset sum](dynamic/subset_sum.py)
