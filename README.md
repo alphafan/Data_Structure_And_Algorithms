@@ -17,6 +17,7 @@
 - [Convert array to ZigZag Fashion](array/Convert%20array%20into%20Zig-Zag%20fashion.py)
 - [Longest Zig-Zag Sequence](array/longest_zig_zag_sequence.py)
 - [Longest Increasing Sequence](array/longest_increasing_sequence.py)
+- [Max Increasing Sequence Sum](array/max_increasing_sum.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
