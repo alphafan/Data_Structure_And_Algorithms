@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic/knapsack.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dynamic/egg_drops.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -20,10 +20,20 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="357">
-                <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+                <caret line="67" column="34" lean-forward="false" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="egg_drops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic/egg_drops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,16 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Count triplets with sum smaller than a given value.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/Count triplets with sum smaller than a given value.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/search/binary_search.py" />
         <option value="$PROJECT_DIR$/search/docs/Binary_Search.md" />
         <option value="$PROJECT_DIR$/stack/stack.py" />
         <option value="$PROJECT_DIR$/stack_queue/stack.py" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/array/min_cost_path.py" />
         <option value="$PROJECT_DIR$/dynamic/min_matrix_mutilplication.py" />
         <option value="$PROJECT_DIR$/dynamic/knapsack.py" />
+        <option value="$PROJECT_DIR$/dynamic/egg_drops.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -238,11 +238,6 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -277,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knapsack">
+  <component name="RunManager" selected="Python.egg_drops">
     <configuration name="bitonic_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,6 +286,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/bitonic_sequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="egg_drops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/egg_drops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,38 +363,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="longest_increasing_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_increasing_sequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
-      <item index="2" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
-      <item index="3" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
-      <item index="4" class="java.lang.String" itemvalue="Python.knapsack" />
+      <item index="1" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+      <item index="2" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+      <item index="3" class="java.lang.String" itemvalue="Python.knapsack" />
+      <item index="4" class="java.lang.String" itemvalue="Python.egg_drops" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.knapsack" />
-        <item index="1" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
-        <item index="4" class="java.lang.String" itemvalue="Python.longest_increasing_sequence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.egg_drops" />
+        <item index="1" class="java.lang.String" itemvalue="Python.knapsack" />
+        <item index="2" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bitonic_sequence" />
       </list>
     </recent_temporary>
   </component>
@@ -398,13 +393,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Level order visit">
-      <created>1522079064296</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1522079064296</updated>
     </task>
     <task id="LOCAL-00026" summary="update doc">
       <created>1522079134452</created>
@@ -742,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522855128661</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Knapsack">
+      <created>1522861805145</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1522861805146</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -803,7 +798,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="array" />
     <MESSAGE value="bubble sort" />
     <MESSAGE value="update" />
     <MESSAGE value="push" />
@@ -828,7 +822,8 @@
     <MESSAGE value="min cost path" />
     <MESSAGE value="dynamic programming" />
     <MESSAGE value="matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="matrix" />
+    <MESSAGE value="Knapsack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knapsack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -844,16 +839,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search/docs/Binary_Search.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="722">
-            <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stack_queue/stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1256,11 +1241,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic/egg_drops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="357">
-            <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+            <caret line="67" column="34" lean-forward="false" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />

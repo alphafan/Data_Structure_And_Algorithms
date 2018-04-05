@@ -65,3 +65,4 @@
 - [Min Cost Path](dynamic/min_cost_path.py)
 - [Min Matrix Multiplication](dynamic/min_matrix_mutilplication.py)
 - [Knapsack](dynamic/knapsack.py)
+- [Egg Drops](dynamic/egg_drops.py)
