@@ -68,3 +68,4 @@
 - [Knapsack](dynamic/knapsack.py)
 - [Egg Drops](dynamic/egg_drops.py)
 - [Max Bitonic Sequence Length](dynamic/bitonic_sequence.py)
+- [Min Palindrome Partition](dynamic/palidrome_partitions.py)
