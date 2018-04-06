@@ -22,6 +22,7 @@
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
+- [First Non Repeating Character](string/first_non_repeating.py)
 
 ### Linked List [Full Code](list/list_impl.py):
 - [Insert Node](list/docs/Insert_Node.md)

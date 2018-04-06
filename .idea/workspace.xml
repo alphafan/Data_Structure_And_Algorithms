@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/smallest_element_in_rotated_array.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/string/first_non_repeating.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="305">
-                <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+              <first_editor relative-caret-position="198">
+                <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first_non_repeating.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/first_non_repeating.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,16 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="min_matrix_mutilplication.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic/min_matrix_mutilplication.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tree/docs/Level_Order.md" />
         <option value="$PROJECT_DIR$/list/list_impl.py" />
         <option value="$PROJECT_DIR$/stack_queue/queue.py" />
         <option value="$PROJECT_DIR$/stack_queue/docs/Queue.md" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/dynamic/can_equally_sum_partition.py" />
         <option value="$PROJECT_DIR$/dynamic/subset_sum.py" />
         <option value="$PROJECT_DIR$/array/smallest_element_in_rotated_array.py" />
+        <option value="$PROJECT_DIR$/string/first_non_repeating.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -239,6 +239,11 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,13 +400,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update">
-      <created>1522115081218</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1522115081218</updated>
     </task>
     <task id="LOCAL-00033" summary="graph visit">
       <created>1522479159973</created>
@@ -739,7 +737,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522907361444</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="min value in rotated array">
+      <created>1523020961513</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1523020961514</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -800,7 +805,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="max product" />
     <MESSAGE value="triangles" />
     <MESSAGE value="rearrange array" />
     <MESSAGE value="reorder array" />
@@ -825,7 +829,8 @@
     <MESSAGE value="palindrome partitions" />
     <MESSAGE value="can partition" />
     <MESSAGE value="subset sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="subset sum" />
+    <MESSAGE value="min value in rotated array" />
+    <option name="LAST_COMMIT_MESSAGE" value="min value in rotated array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,13 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/list_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4275">
-          <caret line="225" column="33" lean-forward="false" selection-start-line="225" selection-start-column="33" selection-end-line="225" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1244,11 +1242,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/string/first_non_repeating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="305">
-            <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+          <first_editor relative-caret-position="198">
+            <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
             <folding />
           </first_editor>
           <second_editor />
