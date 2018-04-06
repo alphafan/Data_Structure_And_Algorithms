@@ -18,6 +18,7 @@
 - [Longest Zig-Zag Sequence](array/longest_zig_zag_sequence.py)
 - [Longest Increasing Sequence](array/longest_increasing_sequence.py)
 - [Max Increasing Sequence Sum](array/max_increasing_sum.py)
+- [Minimal Value in Rotated Sorted Array](array/smallest_element_in_rotated_array.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
