@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/string/first_non_repeating.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +18,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+              <first_editor relative-caret-position="221">
+                <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_2_array_are_same.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/check_2_array_are_same.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,16 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="knapsack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic/knapsack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -140,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/list_impl.py" />
         <option value="$PROJECT_DIR$/stack_queue/queue.py" />
         <option value="$PROJECT_DIR$/stack_queue/docs/Queue.md" />
         <option value="$PROJECT_DIR$/tree/docs/Get_Height.md" />
@@ -190,6 +188,7 @@
         <option value="$PROJECT_DIR$/dynamic/subset_sum.py" />
         <option value="$PROJECT_DIR$/array/smallest_element_in_rotated_array.py" />
         <option value="$PROJECT_DIR$/string/first_non_repeating.py" />
+        <option value="$PROJECT_DIR$/array/check _2_array_are_same.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -240,11 +239,6 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -279,7 +273,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.smallest_element_in_rotated_array">
+  <component name="RunManager" selected="Python.check _2_array_are_same">
+    <configuration name="check _2_array_are_same" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/check_2_array_are_same.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="egg_drops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,24 +323,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic/knapsack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="longest_bitonic_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/longest_bitonic_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,19 +365,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
-      <item index="2" class="java.lang.String" itemvalue="Python.knapsack" />
-      <item index="3" class="java.lang.String" itemvalue="Python.egg_drops" />
-      <item index="4" class="java.lang.String" itemvalue="Python.smallest_element_in_rotated_array" />
+      <item index="0" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
+      <item index="1" class="java.lang.String" itemvalue="Python.knapsack" />
+      <item index="2" class="java.lang.String" itemvalue="Python.egg_drops" />
+      <item index="3" class="java.lang.String" itemvalue="Python.smallest_element_in_rotated_array" />
+      <item index="4" class="java.lang.String" itemvalue="Python.check _2_array_are_same" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.smallest_element_in_rotated_array" />
-        <item index="1" class="java.lang.String" itemvalue="Python.egg_drops" />
-        <item index="2" class="java.lang.String" itemvalue="Python.knapsack" />
-        <item index="3" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
-        <item index="4" class="java.lang.String" itemvalue="Python.longest_bitonic_sequence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.check _2_array_are_same" />
+        <item index="1" class="java.lang.String" itemvalue="Python.smallest_element_in_rotated_array" />
+        <item index="2" class="java.lang.String" itemvalue="Python.egg_drops" />
+        <item index="3" class="java.lang.String" itemvalue="Python.knapsack" />
+        <item index="4" class="java.lang.String" itemvalue="Python.longest_common_sequence" />
       </list>
     </recent_temporary>
   </component>
@@ -400,20 +394,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00033" summary="graph visit">
-      <created>1522479159973</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1522479159973</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update doc">
-      <created>1522479244592</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1522479244592</updated>
     </task>
     <task id="LOCAL-00035" summary="update">
       <created>1522479307675</created>
@@ -744,7 +724,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523020961514</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="first non repeating">
+      <created>1523021791699</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1523021791699</updated>
+    </task>
+    <task id="LOCAL-00083" summary="2 arrays are same or not?">
+      <created>1523022433319</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1523022433319</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -805,8 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="triangles" />
-    <MESSAGE value="rearrange array" />
     <MESSAGE value="reorder array" />
     <MESSAGE value="doc" />
     <MESSAGE value="rotate array sum" />
@@ -830,7 +822,9 @@
     <MESSAGE value="can partition" />
     <MESSAGE value="subset sum" />
     <MESSAGE value="min value in rotated array" />
-    <option name="LAST_COMMIT_MESSAGE" value="min value in rotated array" />
+    <MESSAGE value="first non repeating" />
+    <MESSAGE value="2 arrays are same or not?" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 arrays are same or not?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,13 +840,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1250,11 +1237,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/check_2_array_are_same.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <first_editor relative-caret-position="221">
+            <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
             <folding />
           </first_editor>
           <second_editor />

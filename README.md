@@ -19,7 +19,7 @@
 - [Longest Increasing Sequence](array/longest_increasing_sequence.py)
 - [Max Increasing Sequence Sum](array/max_increasing_sum.py)
 - [Minimal Value in Rotated Sorted Array](array/smallest_element_in_rotated_array.py)
-
+- [Check 2 Arrays are Same or Not](array/check%20_2_array_are_same.py)
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
 - [First Non Repeating Character](string/first_non_repeating.py)
