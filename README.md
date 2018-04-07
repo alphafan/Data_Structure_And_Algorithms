@@ -21,6 +21,7 @@
 - [Minimal Value in Rotated Sorted Array](array/smallest_element_in_rotated_array.py)
 - [Check 2 Arrays are Same or Not](array/check_2_array_are_same.py)
 - [Sort an Array in Wave Form](array/Sort%20an%20array%20in%20wave%20form.py)
+- [Ugly Number](array/ugly_number.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
