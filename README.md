@@ -23,6 +23,7 @@
 - [Sort an Array in Wave Form](array/Sort%20an%20array%20in%20wave%20form.py)
 - [Ugly Number](array/ugly_number.py)
 - [Buy and Sell Stocks](array/stock_buy_sell.py)
+- [Buy and Sell Stocks with Cool Down](array/buy_and_sell_stock_cooldown.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
