@@ -25,6 +25,7 @@
 - [Buy and Sell Stocks](array/stock_buy_sell.py)
 - [Buy and Sell Stocks with Cool Down](array/buy_and_sell_stock_cooldown.py)
 - [Segregate Odd and Even](array/segregate_odd_even.py)
+- [MMNN Pattern Min Value](array/MMNN_pattern_min_value.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
