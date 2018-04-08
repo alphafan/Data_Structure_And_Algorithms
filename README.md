@@ -35,6 +35,7 @@
 - [Get node value(K-th Node, Middle Node, Last K-th Node)](list/docs/Get_Value.md)
 - [Reverse List](list/docs/Reverse_List.md)
 - [Circular List(Check is circular, Get circular node)](list/docs/Circular_List.md)
+- [Flatten List](list/flattern_list.py)
 
 ### Quick Sort [Full Code](sort)
 - [Bubble Sort](sort/docs/Bubble_Sort.md)
