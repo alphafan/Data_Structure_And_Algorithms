@@ -59,6 +59,7 @@
 - [Get Max/Min Depths of a Tree](tree/docs/Get_Height.md)
 - [Check if a Tree is Balance](tree/docs/Get_Height.md)
 - [Get Path to a Node](tree/docs/Path_To_Node.md)
+- [Two Nodes Have Same Child](tree/two_nodes_same_child.py)
 
 ### Trie [Full Code](tree/trie.py)
 - Trie Add, Search and Get Items
