@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/MMNN_pattern_min_value.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/contains_digits.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="111">
-                <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <first_editor relative-caret-position="284">
+                <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contains_digits.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/contains_digits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,18 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stock_buy_sell.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/stock_buy_sell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="e#424#434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backtracking/eight_queens_problem.py" />
         <option value="$PROJECT_DIR$/array/max_continuous_sum.py" />
         <option value="$PROJECT_DIR$/sort/bubble_sort.py" />
         <option value="$PROJECT_DIR$/sort/docs/Bubble_Sort.md" />
@@ -192,6 +189,7 @@
         <option value="$PROJECT_DIR$/search/sorted_with_duplicate_values.py" />
         <option value="$PROJECT_DIR$/array/segregate_odd_even.py" />
         <option value="$PROJECT_DIR$/array/MMNN_pattern_min_value.py" />
+        <option value="$PROJECT_DIR$/array/contains_digits.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -397,13 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00044" summary="array">
-      <created>1522569232543</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1522569232543</updated>
     </task>
     <task id="LOCAL-00045" summary="array">
       <created>1522569282723</created>
@@ -741,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523200044734</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="min pattern value">
+      <created>1523200768692</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1523200768692</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -802,7 +800,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update doc" />
     <MESSAGE value="longest increasing sequence" />
     <MESSAGE value="common sub sequence" />
     <MESSAGE value="min cost path" />
@@ -827,7 +824,8 @@
     <MESSAGE value="flatten list" />
     <MESSAGE value="two nodes have same child" />
     <MESSAGE value="segregate odd even" />
-    <option name="LAST_COMMIT_MESSAGE" value="segregate odd even" />
+    <MESSAGE value="min pattern value" />
+    <option name="LAST_COMMIT_MESSAGE" value="min pattern value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,14 +841,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backtracking/knights_tour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/max_continuous_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1171,7 +1161,7 @@
         <state relative-caret-position="285">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="e#424#434#0" expanded="true" />
+            <element signature="e#424#434#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1250,11 +1240,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/contains_digits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="111">
-            <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <first_editor relative-caret-position="284">
+            <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
             <folding />
           </first_editor>
           <second_editor />
