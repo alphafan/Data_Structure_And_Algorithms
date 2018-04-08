@@ -59,6 +59,9 @@
 - [Check if a Tree is Balance](tree/docs/Get_Height.md)
 - [Get Path to a Node](tree/docs/Path_To_Node.md)
 
+### Trie [Full Code](tree/trie.py)
+- Trie Add, Search and Get Items
+
 ### Graph [Full Code](graph/graph_visit.py)
 - [Graph Visit (Depth First/Breadth First)](graph/docs/Graph_Visit.md)
 - [Find path between node](graph/graph_path.py)
