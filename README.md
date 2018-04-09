@@ -67,6 +67,9 @@
 ### Trie [Full Code](tree/trie.py)
 - Trie Add, Search and Get Items
 
+### AVL Tree [Full Code](tree/avl_tree.py)
+- Complete Balanced Tree
+
 ### Graph [Full Code](graph/graph_visit.py)
 - [Graph Visit (Depth First/Breadth First)](graph/docs/Graph_Visit.md)
 - [Find path between node](graph/graph_path.py)
