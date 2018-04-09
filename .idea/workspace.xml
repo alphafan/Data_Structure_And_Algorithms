@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tree/avl_tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cache/lru_cache.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +20,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="287">
-                <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+              <first_editor relative-caret-position="318">
+                <caret line="29" column="134" lean-forward="false" selection-start-line="29" selection-start-column="134" selection-end-line="29" selection-end-column="134" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lru_cache.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache/lru_cache.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,31 +79,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flattern_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/flattern_list.py">
+      <file leaf-file-name="max_continuous_sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/max_continuous_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="114">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack_queue/stack.py">
+      <file leaf-file-name="Generate permutations with only adjacent swaps allowed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="min_stack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack_queue/min_stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="418">
+              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -138,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sort/bubble_sort.py" />
-        <option value="$PROJECT_DIR$/sort/docs/Bubble_Sort.md" />
         <option value="$PROJECT_DIR$/sort/inert_sort.py" />
         <option value="$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py" />
         <option value="$PROJECT_DIR$/array/common_three_sorted_array.py" />
@@ -188,6 +189,8 @@
         <option value="$PROJECT_DIR$/array/MMNN_pattern_min_value.py" />
         <option value="$PROJECT_DIR$/array/contains_digits.py" />
         <option value="$PROJECT_DIR$/tree/avl_tree.py" />
+        <option value="$PROJECT_DIR$/cache/lru_cache.py" />
+        <option value="$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -272,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.avl_tree">
+  <component name="RunManager" selected="Python.lru_cache">
     <configuration name="avl_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,6 +312,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="lru_cache" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cache" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cache/lru_cache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="min_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,24 +343,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack_queue/min_stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="stock_buy_sell" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/stock_buy_sell.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +367,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.stock_buy_sell" />
-      <item index="1" class="java.lang.String" itemvalue="Python.buy_and_sell_stock_cooldown" />
-      <item index="2" class="java.lang.String" itemvalue="Python.min_stack" />
-      <item index="3" class="java.lang.String" itemvalue="Python.trie" />
-      <item index="4" class="java.lang.String" itemvalue="Python.avl_tree" />
+      <item index="0" class="java.lang.String" itemvalue="Python.buy_and_sell_stock_cooldown" />
+      <item index="1" class="java.lang.String" itemvalue="Python.min_stack" />
+      <item index="2" class="java.lang.String" itemvalue="Python.trie" />
+      <item index="3" class="java.lang.String" itemvalue="Python.avl_tree" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lru_cache" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.avl_tree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.trie" />
-        <item index="2" class="java.lang.String" itemvalue="Python.min_stack" />
-        <item index="3" class="java.lang.String" itemvalue="Python.buy_and_sell_stock_cooldown" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stock_buy_sell" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lru_cache" />
+        <item index="1" class="java.lang.String" itemvalue="Python.avl_tree" />
+        <item index="2" class="java.lang.String" itemvalue="Python.trie" />
+        <item index="3" class="java.lang.String" itemvalue="Python.min_stack" />
+        <item index="4" class="java.lang.String" itemvalue="Python.buy_and_sell_stock_cooldown" />
       </list>
     </recent_temporary>
   </component>
@@ -393,13 +396,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00046" summary="array">
-      <created>1522570992790</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1522570992790</updated>
     </task>
     <task id="LOCAL-00047" summary="bubble sort">
       <created>1522575541446</created>
@@ -737,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523201254538</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="avl">
+      <created>1523245497303</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1523245497303</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -798,7 +801,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="common sub sequence" />
     <MESSAGE value="min cost path" />
     <MESSAGE value="dynamic programming" />
     <MESSAGE value="matrix" />
@@ -823,7 +825,8 @@
     <MESSAGE value="segregate odd even" />
     <MESSAGE value="min pattern value" />
     <MESSAGE value="contain digits" />
-    <option name="LAST_COMMIT_MESSAGE" value="contain digits" />
+    <MESSAGE value="avl" />
+    <option name="LAST_COMMIT_MESSAGE" value="avl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,26 +842,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sort/bubble_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/inert_sort.py" />
-    <entry file="file://$PROJECT_DIR$/sort/docs/Bubble_Sort.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/docs/Path_To_Node.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1244,11 +1227,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cache/lru_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/max_continuous_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="287">
-            <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          <first_editor relative-caret-position="318">
+            <caret line="29" column="134" lean-forward="false" selection-start-line="29" selection-start-column="134" selection-end-line="29" selection-end-column="134" />
             <folding />
           </first_editor>
           <second_editor />
