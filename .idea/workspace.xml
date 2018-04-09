@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/product_smaller_than_k.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tree/tree_2_linked_list.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="337">
-                <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <first_editor relative-caret-position="256">
+                <caret line="67" column="65" lean-forward="false" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree_2_linked_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree/tree_2_linked_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,16 +73,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="458">
               <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="segregate_odd_even.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/segregate_odd_even.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py" />
         <option value="$PROJECT_DIR$/array/common_three_sorted_array.py" />
         <option value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
         <option value="$PROJECT_DIR$/array/Longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/cache/lru_cache.py" />
         <option value="$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py" />
         <option value="$PROJECT_DIR$/array/product_smaller_than_k.py" />
+        <option value="$PROJECT_DIR$/tree/tree_2_linked_list.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -240,11 +240,6 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -279,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lru_cache">
+  <component name="RunManager" selected="Python.tree_2_linked_list">
     <configuration name="avl_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,24 +288,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_structure" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/avl_tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="buy_and_sell_stock_cooldown" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_structure" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array/buy_and_sell_stock_cooldown.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,6 +329,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="tree_2_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_structure" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/tree_2_linked_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="trie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,19 +366,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.buy_and_sell_stock_cooldown" />
-      <item index="1" class="java.lang.String" itemvalue="Python.min_stack" />
-      <item index="2" class="java.lang.String" itemvalue="Python.trie" />
-      <item index="3" class="java.lang.String" itemvalue="Python.avl_tree" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lru_cache" />
+      <item index="0" class="java.lang.String" itemvalue="Python.min_stack" />
+      <item index="1" class="java.lang.String" itemvalue="Python.trie" />
+      <item index="2" class="java.lang.String" itemvalue="Python.avl_tree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lru_cache" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tree_2_linked_list" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lru_cache" />
-        <item index="1" class="java.lang.String" itemvalue="Python.avl_tree" />
-        <item index="2" class="java.lang.String" itemvalue="Python.trie" />
-        <item index="3" class="java.lang.String" itemvalue="Python.min_stack" />
-        <item index="4" class="java.lang.String" itemvalue="Python.buy_and_sell_stock_cooldown" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tree_2_linked_list" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lru_cache" />
+        <item index="2" class="java.lang.String" itemvalue="Python.avl_tree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.trie" />
+        <item index="4" class="java.lang.String" itemvalue="Python.min_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -400,13 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00048" summary="update">
-      <created>1522807834204</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1522807834204</updated>
     </task>
     <task id="LOCAL-00049" summary="push">
       <created>1522809261537</created>
@@ -744,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523260596890</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="product smaller than k">
+      <created>1523277991277</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1523277991277</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -805,7 +800,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="min cost path" />
     <MESSAGE value="dynamic programming" />
     <MESSAGE value="matrix" />
     <MESSAGE value="Knapsack" />
@@ -830,7 +824,8 @@
     <MESSAGE value="contain digits" />
     <MESSAGE value="avl" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="product smaller than k" />
+    <option name="LAST_COMMIT_MESSAGE" value="product smaller than k" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,14 +841,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/common_three_sorted_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1254,11 +1241,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tree/tree_2_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="337">
-            <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <first_editor relative-caret-position="256">
+            <caret line="67" column="65" lean-forward="false" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
             <folding />
           </first_editor>
           <second_editor />

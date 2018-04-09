@@ -65,6 +65,7 @@
 - [Check if a Tree is Balance](tree/docs/Get_Height.md)
 - [Get Path to a Node](tree/docs/Path_To_Node.md)
 - [Two Nodes Have Same Child](tree/two_nodes_same_child.py)
+- [Convert Binary Tree to Linked List](tree/tree_2_linked_list.py)
 
 ### Trie [Full Code](tree/trie.py)
 - Trie Add, Search and Get Items
