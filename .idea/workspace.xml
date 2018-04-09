@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cache/lru_cache.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/array/product_smaller_than_k.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -20,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="318">
-                <caret line="29" column="134" lean-forward="false" selection-start-line="29" selection-start-column="134" selection-end-line="29" selection-end-column="134" />
+              <first_editor relative-caret-position="337">
+                <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_smaller_than_k.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/product_smaller_than_k.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,16 +73,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="589">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="two_nodes_same_child.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/two_nodes_same_child.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sort/inert_sort.py" />
         <option value="$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py" />
         <option value="$PROJECT_DIR$/array/common_three_sorted_array.py" />
         <option value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
@@ -191,6 +189,7 @@
         <option value="$PROJECT_DIR$/tree/avl_tree.py" />
         <option value="$PROJECT_DIR$/cache/lru_cache.py" />
         <option value="$PROJECT_DIR$/array/Generate permutations with only adjacent swaps allowed.py" />
+        <option value="$PROJECT_DIR$/array/product_smaller_than_k.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -240,6 +239,11 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,13 +400,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00047" summary="bubble sort">
-      <created>1522575541446</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1522575541446</updated>
     </task>
     <task id="LOCAL-00048" summary="update">
       <created>1522807834204</created>
@@ -740,7 +737,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523245497303</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="update">
+      <created>1523260596889</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1523260596890</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -814,7 +818,6 @@
     <MESSAGE value="min value in rotated array" />
     <MESSAGE value="first non repeating" />
     <MESSAGE value="2 arrays are same or not?" />
-    <MESSAGE value="update" />
     <MESSAGE value="sort an array in wave form" />
     <MESSAGE value="ugly number" />
     <MESSAGE value="buy and sell stocks" />
@@ -826,7 +829,8 @@
     <MESSAGE value="min pattern value" />
     <MESSAGE value="contain digits" />
     <MESSAGE value="avl" />
-    <option name="LAST_COMMIT_MESSAGE" value="avl" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -842,17 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tree/docs/Path_To_Node.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="722">
-            <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/count_inversions_of_size_three_in_a_given_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1253,11 +1246,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/array/product_smaller_than_k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="318">
-            <caret line="29" column="134" lean-forward="false" selection-start-line="29" selection-start-column="134" selection-end-line="29" selection-end-column="134" />
+          <first_editor relative-caret-position="337">
+            <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
             <folding />
           </first_editor>
           <second_editor />

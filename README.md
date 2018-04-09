@@ -28,6 +28,7 @@
 - [MMNN Pattern Min Value](array/MMNN_pattern_min_value.py)
 - [Contains digits and print in order](array/contains_digits.py)
 - [Generate permutations with only adjacent swaps allowed](array/Generate%20permutations%20with%20only%20adjacent%20swaps%20allowed.py)
+- [Product smaller than K](array/product_smaller_than_k.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
