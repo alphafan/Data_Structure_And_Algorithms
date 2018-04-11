@@ -30,6 +30,9 @@
 - [Generate permutations with only adjacent swaps allowed](array/Generate%20permutations%20with%20only%20adjacent%20swaps%20allowed.py)
 - [Product smaller than K](array/product_smaller_than_k.py)
 
+### Bit Manipulation
+- [Hamming Weight](bit/hamming_weights.py)
+
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
 - [First Non Repeating Character](string/first_non_repeating.py)
