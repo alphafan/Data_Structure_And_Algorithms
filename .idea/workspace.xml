@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bit/hamming_weights.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bit/hamming_distance.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -19,11 +19,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <first_editor relative-caret-position="240">
+                <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hamming_distance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bit/hamming_distance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,16 +73,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lru_cache.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cache/lru_cache.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/array/find_zeroes_to_be_flipped_so_that_number_of_consecutive_1’s_is_maximized.py" />
         <option value="$PROJECT_DIR$/array/Longest_Span_with_same_Sum_in_two_Binary_arrays.py" />
         <option value="$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py" />
         <option value="$PROJECT_DIR$/array/max_continous_product.py" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/array/product_smaller_than_k.py" />
         <option value="$PROJECT_DIR$/tree/tree_2_linked_list.py" />
         <option value="$PROJECT_DIR$/bit/hamming_weights.py" />
+        <option value="$PROJECT_DIR$/bit/hamming_distance.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -239,6 +239,11 @@
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="bit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,13 +400,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00050" summary="flip 0s">
-      <created>1522810618423</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1522810618423</updated>
     </task>
     <task id="LOCAL-00051" summary="longest subarray equal sum">
       <created>1522812813007</created>
@@ -739,7 +737,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523281259695</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="hamming">
+      <created>1523437159093</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1523437159093</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -800,7 +805,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="matrix" />
     <MESSAGE value="Knapsack" />
     <MESSAGE value="egg drop" />
     <MESSAGE value="max continuous sum" />
@@ -825,7 +829,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="product smaller than k" />
     <MESSAGE value="convert tree to linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert tree to linked list" />
+    <MESSAGE value="hamming" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,14 +846,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/array/longest_Span_with_same_Sum_in_two_Binary_arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/Maximum_Sum_Path_in_Two_Arrays.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1249,11 +1246,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bit/hamming_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <first_editor relative-caret-position="240">
+            <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

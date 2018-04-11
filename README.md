@@ -32,6 +32,7 @@
 
 ### Bit Manipulation
 - [Hamming Weight](bit/hamming_weights.py)
+- [Hamming Distance](bit/hamming_distance.py)
 
 ### String
 - [KPM Algorithm to Get Index of Sub string](string/kpm_substring.py)
