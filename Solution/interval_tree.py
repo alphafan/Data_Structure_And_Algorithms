@@ -39,24 +39,27 @@ class IntervalTree(object):
         While inserting a new interval, the minPrice saved in the node is also
         updated by comparing with the price of new interval inserted.
 
-        Examples of one node insertion:
+        Examples of insert an interval to root node:
 
-        1) Root is (start: 2, end: 7, price: 10), insert a new node
+        1) Root is (start: 2, end: 7, price: 10), new interval is
             (start: 3, end: 8, price: 6).
+
+        Interval overlaps the right part of current root node.
 
                 Before Insertion             After Insertion
 
                              Insert (3 - 8 - 6)
-                2 - 7 - 10          -->         2 - 3 - 7
-                                                        \
-                                                     3 - 8 - 6
+                2 - 7 - 10          -->         2 - 3 - 10
+                                                     \
+                                                      3 - 8 - 6
 
-        Since the new interval ends at 8, it is located at right of current
-        root, so we will insert a new node at its right child.
+        Since the new interval starts at 3 and ends at 8, it is located at right
+        of current root, so we will insert a new node at its right child.
 
         By comparing the prices (new interval's price is smaller than the root's
-        minPrice), we will change the data saved at root node and insert a new
-        interval at its right.
+        minPrice), we will split the root node into two parts, and merge the right part
+        of root (3 - 7 - 10) with new interval (3 - 8 - 6) into a new right child node
+        (3 - 8 - 6)
 
         2) Root is (start: 2, end: 7, price: 10), new interval is (1 - 5 -7)
 
@@ -64,24 +67,26 @@ class IntervalTree(object):
 
                             Insert (1 - 5 - 7)
                 2 - 7 - 10          -->          5 - 7 - 10
-                                                 /
-                                            1 - 5 - 7
+                                                /
+                                           1 - 5 - 7
 
-        3)
+        3) No intersection between interval and root, append directly at its child.
+
                 Before Insertion                After Insertion
 
                             Insert (8 - 9 - 7)
                 2 - 7 - 10          -->         2 - 7 - 10
-                                                        \
-                                                        8 - 9 - 7
+                                                     \
+                                                      8 - 9 - 7
 
-        4)
+        4) No intersection between interval and root, append directly at its child.
+
                 Before Insertion                After Insertion
 
                             Insert (0 - 1 - 7)
                 2 - 7 - 10          -->         2 - 7 - 10
-                                                /
-                                        0 - 1 - 7
+                                               /
+                                          0 - 1 - 7
 
         5)
                 Before Insertion                After Insertion

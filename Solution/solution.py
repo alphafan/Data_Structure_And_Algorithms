@@ -15,7 +15,7 @@ def lowest_price_intervals(intervals):
     # i.e. (1 - 3 - 5), (3 - 4 - 5) --> (1, 4, 5)
     merged = []
     for interval in intervals:
-        if not merged or interval.price != merged[-1].price:
+        if not merged or interval.price != merged[-1].price or interval.start != merged[-1].end:
             merged.append(interval)
         else:
             merged[-1] = Interval(merged[-1].start, interval.end, interval.price)
