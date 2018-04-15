@@ -16,6 +16,30 @@ class ListNode(object):
         return reprStr + 'None'
 
 
+def flatten(head: ListNode):
+    if head is None:
+        return head
+    node = head
+    while node:
+        right = node.right
+        _, tail = merge(node)
+        tail.right = right
+        node = right
+    return head
+
+
+def merge(head: ListNode):
+    node = head
+    tail = None
+    while node:
+        node.right = node.child
+        child = node.child
+        tail = node
+        node.child = None
+        node = child
+    return head, tail
+
+
 a, b, c, d, e, f, g = (ListNode(i) for i in 'abcdefg')
 a.right = d
 a.child = b
@@ -23,29 +47,6 @@ b.child = c
 d.right = g
 d.child = e
 e.child = f
-
-
-def flatten(head: ListNode):
-    node = head
-    while node:
-        temp = node.right
-        _, tail = merge(node, node.child)
-        if tail is None:
-            return head
-        tail.right = temp
-        node = temp
-
-
-def merge(head, child):
-    head.right = child
-    head.child = None
-    tail = None
-    while child:
-        child.right = child.child
-        child.child = None
-        tail = child
-        child = child.right
-    return head, tail
 
 
 a = flatten(a)
