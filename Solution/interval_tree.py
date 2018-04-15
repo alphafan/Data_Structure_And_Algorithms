@@ -61,6 +61,7 @@ class IntervalTree(object):
         2) Root is (start: 2, end: 7, price: 10), new interval is (1 - 5 -7)
 
                 Before Insertion                After Insertion
+
                             Insert (1 - 5 - 7)
                 2 - 7 - 10          -->          5 - 7 - 10
                                                  /
@@ -68,6 +69,7 @@ class IntervalTree(object):
 
         3)
                 Before Insertion                After Insertion
+
                             Insert (8 - 9 - 7)
                 2 - 7 - 10          -->         2 - 7 - 10
                                                         \
@@ -75,6 +77,7 @@ class IntervalTree(object):
 
         4)
                 Before Insertion                After Insertion
+
                             Insert (0 - 1 - 7)
                 2 - 7 - 10          -->         2 - 7 - 10
                                                 /
@@ -82,6 +85,7 @@ class IntervalTree(object):
 
         5)
                 Before Insertion                After Insertion
+
                             Insert (4 - 6 - 7)
                 2 - 7 - 10          -->         4 - 6 - 7
                                               /            \
@@ -89,6 +93,7 @@ class IntervalTree(object):
 
         6)
                 Before Insertion                After Insertion
+
                             Insert (1 - 10 - 7)
                 2 - 7 - 10          -->         2 - 7 - 7
                                                /          \
@@ -102,6 +107,7 @@ class IntervalTree(object):
         Step 1):
 
                 Before Insertion                After Insertion
+
                             Insert (1 - 4 - 6)
                 3 - 5 - 8          -->         4 - 5 - 8
                                                /
@@ -110,10 +116,11 @@ class IntervalTree(object):
         Step 2):
 
                 Before Insertion                After Insertion
+
                             Insert (4 - 6 - 4)
                 4 - 5 - 8           -->             4 - 5 - 4
                 /                                     /     \
-            1 - 4 - 6                          1 - 4 - 6    4 - 6 - 4
+            1 - 4 - 6                          1 - 4 - 6    5 - 6 - 4
 
         Step 3):
 
@@ -121,18 +128,21 @@ class IntervalTree(object):
             (1 - 4 - 5), (4 - 5 - 4), (5 - 7 - 5)
 
                 Before Insertion                    After Insertion
+
                             Insert (1 - 7 - 5) at root
                 4 - 5 - 4                                 4 - 5 - 4
                 /         \                             /           \
-            1 - 4 - 6    4 - 6 - 4      (1 - 4 - 5) + 1 - 4 - 6      4 - 6 - 4  + (5 - 7 - 5)
+            1 - 4 - 6    5 - 6 - 4      (1 - 4 - 5) + 1 - 4 - 6      5 - 6 - 4  + (5 - 7 - 5)
 
             3.2 Recursively insert at left child and right child
 
             Before Insertion                                                After Insertion
-                        Insert (1 - 4 - 5), (5 - 7 - 5) at left, right
+
+                                 Insert (1 - 4 - 5), (5 - 7 - 5) at left, right
+
                                 4 - 5 - 4                                       4 - 5 - 4
                             /               \                                    /       \
-            (1 - 4 - 5) + 1 - 4 - 6     4 - 6 - 4  + (5 - 7 - 5)           1 - 4 - 5     4 - 6 - 4
+            (1 - 4 - 5) + 1 - 4 - 6     5 - 6 - 4  + (5 - 7 - 5)           1 - 4 - 5     5 - 6 - 4
                                                                                              \
                                                                                              6 - 7 - 5
 

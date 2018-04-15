@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2cb976b-8aed-46a8-bcfd-7d1255ca6a13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Solution/interval_tree.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Solution/interval_tree_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Solution/solution.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Solution/solution_test.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/list/flattern_list.py" afterPath="$PROJECT_DIR$/list/flattern_list.py" />
+      <change beforePath="$PROJECT_DIR$/Solution/interval_tree.py" afterPath="$PROJECT_DIR$/Solution/interval_tree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +37,8 @@
       <file leaf-file-name="interval_tree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution/interval_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2945">
-              <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+            <state relative-caret-position="-1203">
+              <caret line="140" column="79" lean-forward="true" selection-start-line="140" selection-start-column="79" selection-end-line="140" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -379,13 +374,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522053622058</updated>
-    </task>
-    <task id="LOCAL-00053" summary="max product">
-      <created>1522814741730</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1522814741730</updated>
     </task>
     <task id="LOCAL-00054" summary="triangles">
       <created>1522818759417</created>
@@ -723,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523541600073</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="solution">
+      <created>1523760581016</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1523760581016</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +779,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="max continuous sum" />
     <MESSAGE value="bitonic" />
     <MESSAGE value="palindrome partitions" />
     <MESSAGE value="can partition" />
@@ -809,7 +803,8 @@
     <MESSAGE value="hamming" />
     <MESSAGE value="hamming distance" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1185,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution/interval_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2945">
-          <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+        <state relative-caret-position="-1203">
+          <caret line="140" column="79" lean-forward="true" selection-start-line="140" selection-start-column="79" selection-end-line="140" selection-end-column="79" />
           <folding />
         </state>
       </provider>
