@@ -1,7 +1,4 @@
-# A simple implementation of binary tree
-
-
-class BTNode(object):
+class TNode(object):
 
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -12,48 +9,24 @@ class BTNode(object):
         return str(self.value)
 
 
+class ListNode(object):
+
+    def __init__(self, value, pre=None, nxt=None):
+        self.value = value
+        self.pre = pre
+        self.nxt = nxt
+
+    def __repr__(self):
+        return str(self.value)
+
+
 class BTree(object):
 
-    def __init__(self, root):
+    def __init__(self, root: TNode = None):
         self.root = root
 
-    def preOrderRec(self):
-        print('Pre-Order Rec  :', end=' ')
-        self._preOrderRec(self.root)
-        print()     # Flush
-
-    def _preOrderRec(self, root: BTNode):
-        if root:
-            print(root.value, end=' ')
-            self._preOrderRec(root.left)
-            self._preOrderRec(root.right)
-
-    def inOrderRec(self):
-        print('In-Order Rec   :', end=' ')
-        self._inOrderRec(self.root)
-        print()     # Flush
-
-    def _inOrderRec(self, root: BTNode):
-        if root:
-            self._inOrderRec(root.left)
-            print(root.value, end=' ')
-            self._inOrderRec(root.right)
-
-    def postOrderRec(self):
-        print('Post-Order Rec :', end=' ')
-        self._postOrderRec(self.root)
-        print()  # Flush
-
-    def _postOrderRec(self, root: BTNode):
-        if root:
-            self._postOrderRec(root.left)
-            self._postOrderRec(root.right)
-            print(root.value, end=' ')
-
     def preOrder(self):
-        print('Pre-Order   :', end=' ')
         if self.root is None:
-            print()
             return
         stack = [self.root]
         while stack:
@@ -65,13 +38,21 @@ class BTree(object):
                 stack.append(node.left)
         print()
 
+    def preOrderRec(self):
+        root = self.root
+        self._preOrderRec(root)
+        print()
+
+    def _preOrderRec(self, root: TNode):
+        if root:
+            print(root, end=' ')
+            self._preOrderRec(root.left)
+            self._preOrderRec(root.right)
+
     def inOrder(self):
-        print('In-Order    :', end=' ')
         if self.root is None:
-            print()
             return
-        node = self.root
-        stack = []
+        node, stack = self.root, []
         while node or stack:
             while node:
                 stack.append(node)
@@ -80,21 +61,34 @@ class BTree(object):
                 node = stack.pop()
                 print(node, end=' ')
                 node = node.right
+
+    def inOrderRec(self):
+        root = self.root
+        self._inOrderRec(root)
         print()
 
+    def _inOrderRec(self, root: TNode):
+        if root:
+            self._inOrderRec(root.left)
+            print(root, end=' ')
+            self._inOrderRec(root.right)
+
     def postOrder(self):
-        print('Post-Order  :', end=' ')
-        stack = [self.root]
-        prev = None
+        if self.root is None:
+            return
+        prev, stack = None, [self.root]
         while stack:
             curr = stack[-1]
-            # 3 conditions to print out
-            if (curr.left is None and curr.right is None) or \
-               (prev is not None and curr.left == prev and curr.right is None) or \
-               (prev is not None and curr.right == prev):
+            # 3 conditions to visit current node
+            #   - Current node has no child
+            #   - Current node's right child has just been visited
+            #   - Current node's left child has just been visited and right child is None
+            if curr.left is None and curr.right is None or \
+                prev is not None and curr.right == prev or \
+                prev is not None and curr.left == prev and curr.right is None:
                 node = stack.pop()
-                print(node, end=' ')
                 prev = node
+                print(node, end=' ')
             else:
                 if curr.right:
                     stack.append(curr.right)
@@ -102,99 +96,193 @@ class BTree(object):
                     stack.append(curr.left)
         print()
 
-    def levelOrder(self):
-        """ Visit Tree Level by Level """
-        print('Level Order :', end=' ')
-        if self.root is None:
-            print()
-            return
-        currLevel = [self.root]
-        nextLevel = []
-        while currLevel or nextLevel:
-            while len(currLevel) != 0:
-                node = currLevel.pop(0)
-                print(node, end=' ')
-                if node.left:
-                    nextLevel.append(node.left)
-                if node.right:
-                    nextLevel.append(node.right)
-            currLevel, nextLevel = nextLevel, currLevel
+    def postOrderRec(self):
+        root = self.root
+        self._postOrderRec(root)
         print()
 
-    def maxDepth(self):
-        return self._maxDepthRec(self.root)
+    def _postOrderRec(self, root: TNode):
+        if root:
+            self._postOrderRec(root.left)
+            self._postOrderRec(root.right)
+            print(root, end=' ')
 
-    def _maxDepthRec(self, root: BTNode):
+    def levelOrder(self):
+        if self.root is None:
+            return
+        currLevel, nextLevel = [self.root], []
+        while currLevel:
+            node = currLevel.pop()
+            print(node, end=' ')
+            if node.right:
+                nextLevel.append(node.right)
+            if node.left:
+                nextLevel.append(node.left)
+            if len(currLevel) == 0:
+                currLevel, nextLevel = nextLevel, currLevel
+                print()
+
+    def insert(self, node: TNode):
+        if node is None:
+            return
+        self.root = self._insertRec(self.root, node)
+
+    def _insertRec(self, root: TNode, node: TNode):
+        if root is None or root.value == node.value:
+            return node
+        if root.value > node.value:
+            root.left = self._insertRec(root.left, node)
+        if root.value < node.value:
+            root.right = self._insertRec(root.right, node)
+        return root
+
+    def delete(self, node: TNode):
+        if self.root is None or node is None:
+            return
+        self._delete(self.root, node)
+
+    def _delete(self, root: TNode, node: TNode):
         if root is None:
-            return 0
-        if root.left is None and root.right is None:
-            return 1
-        elif root.left is None and root.right is not None:
-            return 1 + self._maxDepthRec(root.right)
-        elif root.left is not None and root.right is None:
-            return 1 + self._maxDepthRec(root.left)
+            raise Exception('Try to delete a non-existing value.')
+        if root.value > node.value:
+            root.left = self._delete(root.left, node)
+        elif root.value < node.value:
+            root.right = self._delete(root.right, node)
         else:
-            return 1 + max(self._maxDepthRec(root.left),
-                           self._maxDepthRec(root.right))
+            if root.left is None:
+                root = root.right
+            elif root.right is None:
+                root = root.left
+            else:
+                minValueNode = self.minValueNode(root.right)
+                root.value = minValueNode.value
+                root.right = self._delete(root.right, minValueNode)
+        return root
 
-    def minDepth(self):
-        return self._minDepthRec(self.root)
-
-    def _minDepthRec(self, root):
+    def minValueNode(self, root: TNode):
         if root is None:
+            return root
+        while root.left:
+            root = root.left
+        return root
+
+    def search(self, node: TNode):
+        return self._search(self.root, node)
+
+    def _search(self, root: TNode, node: TNode):
+        if root is None or node is None:
+            return False
+        if root.value == node.value:
+            return True
+        if root.value > node.value:
+            return self._search(root.left, node)
+        if root.value < node.value:
+            return self._search(root.right, node)
+
+    def pathToNode(self, node: TNode):
+        if node is not None:
+            return self._pathToNode(self.root, node, [self.root])
+
+    def _pathToNode(self, root: TNode, node: TNode, path: list):
+        if root is None:
+            return
+        if root.value == node.value:
+            return path
+        if root.value > node.value:
+            newpath = self._pathToNode(root.left, node, path + [root.left])
+            if newpath is not None:
+                return newpath
+        if root.value < node.value:
+            newpath = self._pathToNode(root.right, node, path + [root.right])
+            if newpath is not None:
+                return newpath
+
+    def lowestCommonAncestor(self, node1: TNode, node2: TNode):
+        path1 = self.pathToNode(node1)
+        path2 = self.pathToNode(node2)
+        if path1 is None or path2 is None:
+            return
+        index = 0
+        while index < len(path1) and index < len(path2):
+            if path1[index] != path2[index]:
+                break
+            index += 1
+        return path1[index-1]
+
+    def minHeight(self):
+        if self.root is None:
             return 0
+        return self._minHeight(self.root, 1)
+
+    def _minHeight(self, root: TNode, currHeight):
         if root.left is None or root.right is None:
-            return 1
-        else:
-            return 1 + min(self._minDepthRec(root.left),
-                           self._minDepthRec(root.right))
+            return currHeight
+        return min(self._minHeight(root.left, currHeight+1),
+                   self._minHeight(root.right, currHeight+1))
+
+    def maxHeight(self):
+        if self.root is None:
+            return 0
+        return self._maxHeight(self.root, 0)
+
+    def _maxHeight(self, root: TNode, currHeight):
+        if root is None:
+            return currHeight
+        if root.left is None:
+            return self._maxHeight(root.right, currHeight+1)
+        if root.right is None:
+            return self._maxHeight(root.left, currHeight+1)
+        return max(self._maxHeight(root.left, currHeight+1),
+                   self._maxHeight(root.right, currHeight+1))
 
     def isBalance(self):
-        if self.maxDepth() - self.minDepth() <= 1:
+        if self.maxHeight() - self.minHeight() <= 1:
             return True
         return False
 
-    def pathToNode(self, target: BTNode):
-        if self.root is None:
-            return []
-        return self._pathToNodeRec(self.root, target, [self.root])
+    def fromPreOrderAndInOrder(self, preorder: list, inorder: list):
+        self.root = self._fromPreOrderAndInOrder(preorder, inorder)
 
-    def _pathToNodeRec(self, root, target, path: list):
-        if root == target:
-            print(path)
-            return path
-        if root.left:
-            resLeft = self._pathToNodeRec(root.left, target, path + [root.left])
-            if resLeft:
-                return resLeft
-        if root.right:
-            resRight = self._pathToNodeRec(root.right, target, path + [root.right])
-            if resRight:
-                return resRight
+    def _fromPreOrderAndInOrder(self, preorder: list, inorder: list):
+        if inorder:
+            idx = inorder.index(preorder.pop(0))
+            root = TNode(inorder[idx])
+            root.left = self._fromPreOrderAndInOrder(preorder, inorder[:idx])
+            root.right = self._fromPreOrderAndInOrder(preorder, inorder[idx+1:])
+            return root
 
+    def fromInOrderAndPostOrder(self, inorder: list, postorder: list):
+        self.root = self._fromPreOrderAndInOrder(inorder, postorder)
 
-"""  Build a tree for testing
+    def _fromInOrderAndPostOrder(self, inorder: list, postorder: list):
+        if inorder:
+            idx = inorder.index(postorder.pop())
+            root = TNode(inorder[idx])
+            root.right = self._fromInOrderAndPostOrder(inorder[:idx], postorder)
+            root.right = self._fromInOrderAndPostOrder(inorder[idx+1:], postorder)
+            return root
 
-Tree Structure:
-        a
-      /   \
-     b     c
-   /  \   / \
-  d   e  f   g
-"""
-a, b, c, d, e, f, g = (BTNode(i) for i in 'abcdefg')
-a.left, a.right = b, c
-b.left, b.right = d, e
-c.left, c.right = f, g
-tree = BTree(root=a)
+    def toDoubleLinkedList(self):
+        self._head, self._prev = None, None
+        self._inorderConvert(self.root)
+        return self._head
 
-tree.preOrderRec()
-tree.inOrderRec()
-tree.postOrderRec()
-tree.preOrder()
-tree.inOrder()
-tree.postOrder()
-tree.levelOrder()
-print(tree.maxDepth())
-print(tree.minDepth())
-tree.pathToNode(d)
+    _head, _prev = None, None
+
+    def _inorderConvert(self, root: TNode):
+        if root:
+            self._inorderConvert(root.left)
+            # Do some stuff here
+            if self._head is None:
+                self._head = self._prev = ListNode(root.value)
+            else:
+                if self._head == self._prev:
+                    self._head.nxt = root
+                    self._prev = root
+                    self._prev.pre = self._head
+                else:
+                    self._prev.nxt = root
+                    tmp = self._prev
+                    self._prev = root
+                    self._prev.pre = tmp
+            self._inorderConvert(root.right)
